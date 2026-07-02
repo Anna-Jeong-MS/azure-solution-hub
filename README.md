@@ -50,8 +50,22 @@ docs/                         # GitHub Pages 로 배포되는 정적 사이트
 
 ### 솔루션 설명 자료 추가
 
-1. `docs/solutions/<슬러그>/` 폴더를 만들고 [_template/index.md](docs/solutions/_template/index.md) 를 참고해 `index.md` 를 작성합니다. (이미지는 `images/` 에 넣고 `![](images/파일명)` 으로 참조)
-2. [docs/solutions/solutions.md](docs/solutions/solutions.md) 에 카드 항목을 추가합니다.
+> 폴더와 `index.md` 만 만들면 목록에는 나타나지 않습니다. GitHub Pages는 정적 호스팅이라 폴더 내용을 실시간으로 조회할 수 없어, 목록은 [solutions.md](docs/solutions/solutions.md) 매니페스트를 읽어 렌더링합니다. 아래 **2단계**를 모두 거쳐야 카드가 표시됩니다.
+
+1. **콘텐츠 작성** — `docs/solutions/<슬러그>/` 폴더를 만들고 [_template/index.md](docs/solutions/_template/index.md) 를 참고해 `index.md` 를 작성합니다. (이미지는 `docs/solutions/<슬러그>/images/` 에 넣고 `![설명](images/파일명.png)` 으로 참조)
+2. **목록 등록** — [docs/solutions/solutions.md](docs/solutions/solutions.md) 맨 아래에 카드 항목을 추가합니다.
+
+```markdown
+### 카드 제목
+slug: 폴더-이름
+tag: Azure
+icon: cloud
+카드에 보일 요약 한 문장.
+```
+
+- `slug` 는 폴더 이름과 **정확히 일치**해야 합니다. 카드 클릭 시 `solution.html?slug=<슬러그>` 상세 페이지로 연결됩니다.
+- `icon` 은 `cloud | ai | security | data | modernwork | app` 중 하나입니다.
+- 매니페스트를 편집하고 커밋하면 메인 페이지 "솔루션 설명 자료" 섹션에 자동으로 반영됩니다.
 
 ## 로컬에서 미리보기
 
