@@ -1,12 +1,12 @@
 {
-  "generatedAt": "2026-07-15T21:59:40.830Z",
+  "generatedAt": "2026-07-16T22:03:21.619Z",
   "source": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
   "translated": true,
   "items": [
     {
       "title": "Announcing: GitHub Copilot and Claude Code connectors in Microsoft Agent Framework",
       "titleKo": "발표: Microsoft Agent Framework의 GitHub Copilot 및 Claude Code 커넥터",
-      "summaryKo": "Microsoft Agent Framework는 이제 GitHub Copilot 및 Claude Code에 대한 일반 사용 가능 커넥터를 제공하여 개발자가 .NET 및 Python 에이전트를 구축하고 커스텀 어댑터 코드를 작성하지 않고도 두 시스템에 코딩 작업을 위임할 수 있습니다.",
+      "summaryKo": "Microsoft Agent Framework는 이제 GitHub Copilot 및 Claude Code에 대한 일반 사용 가능 커넥터를 제공하여 개발자가 맞춤형 어댑터 코드를 작성하지 않고도 .NET 및 Python 에이전트를 구축할 수 있습니다.",
       "status": "",
       "category": "AI + machine learning",
       "link": "https://azure.microsoft.com/updates?id=563701",
@@ -24,7 +24,7 @@
     {
       "title": "Announcing: Agent Harness in Microsoft Agent Framework",
       "titleKo": "발표: Microsoft Agent Framework의 에이전트 하네스",
-      "summaryKo": "Microsoft Agent Framework는 에이전트를 위한 프로덕션 런타임인 에이전트 하네스의 일반 사용 가능성을 달성했습니다. 미리보기 하네스에서 파일럿을 실행 중인 고객은 이제 동일한 에이전트 코드를 프로덕션으로 이전할 수 있습니다.",
+      "summaryKo": "Microsoft Agent Framework는 프레임워크로 구축된 에이전트를 위한 프로덕션 런타임인 에이전트 하네스에 대한 일반 사용 가능성을 달성했습니다. 미리보기 하네스에서 파일럿을 실행 중인 고객은 이제 동일한 에이전트 코드를 프로덕션으로 이전할 수 있습니다.",
       "status": "",
       "category": "AI + machine learning",
       "link": "https://azure.microsoft.com/updates?id=563546",
@@ -32,8 +32,8 @@
     },
     {
       "title": "Announcing: Multi-agent orchestration SDK with the Microsoft Foundry Agent Framework in C# and Python",
-      "titleKo": "발표: C# 및 Python용 Microsoft Foundry Agent Framework의 다중 에이전트 오케스트레이션 SDK",
-      "summaryKo": "Microsoft Foundry는 이제 C# 및 Python을 위한 통합 다중 에이전트 오케스트레이션 SDK인 Agent Framework를 소개합니다. 이 릴리스는 AutoGen 및 Semantic Kernel에 분산되어 있던 패턴을 통합하여 개발자에게 일관된 추상화 세트를 제공합니다.",
+      "titleKo": "발표: C# 및 Python에서 Microsoft Foundry Agent Framework의 다중 에이전트 오케스트레이션 SDK",
+      "summaryKo": "Microsoft Foundry는 이제 C# 및 Python을 위한 통합 다중 에이전트 오케스트레이션 SDK인 Agent Framework를 소개합니다. 이 릴리스는 이전에 AutoGen 및 Semantic Kernel에 분산되어 있던 패턴을 통합하여 개발자에게 일관된 추상화 세트를 제공합니다.",
       "status": "",
       "category": "AI + machine learning",
       "link": "https://azure.microsoft.com/updates?id=564312",
@@ -41,8 +41,8 @@
     },
     {
       "title": "Announcing: Tracing for Microsoft Agent Framework (Python and .NET)",
-      "titleKo": "발표: Microsoft Agent Framework(Python 및 .NET)의 추적 기능",
-      "summaryKo": "공식 미리보기에서 Microsoft Foundry는 Python 및 .NET에서 Microsoft Agent Framework의 추적 기능을 제공하여 개발자가 에이전트가 실행 중에 어떻게 추론하고 도구를 호출하며 모델과 상호작용하는지 관찰할 수 있도록 돕습니다.",
+      "titleKo": "발표: Microsoft Agent Framework(파이썬 및 .NET)의 추적 기능",
+      "summaryKo": "공식 미리보기에서 Microsoft Foundry는 Python 및 .NET에서 Microsoft Agent Framework의 추적 기능을 제공하여 개발자가 에이전트가 실행 중에 어떻게 추론하고 도구를 호출하며 모델과 상호작용하는지를 관찰할 수 있도록 돕습니다.",
       "status": "",
       "category": "AI + machine learning",
       "link": "https://azure.microsoft.com/updates?id=564071",
