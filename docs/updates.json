@@ -1,12 +1,30 @@
 {
-  "generatedAt": "2026-07-19T21:51:46.882Z",
+  "generatedAt": "2026-07-20T21:58:55.454Z",
   "source": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
   "translated": true,
   "items": [
     {
+      "title": "Public Preview: Protect sensitive generative AI telemetry in Application Insights and Microsoft Foundry",
+      "titleKo": "공식 미리보기: Application Insights 및 Microsoft Foundry에서 민감한 생성 AI 텔레메트리 보호",
+      "summaryKo": "Azure Monitor Application Insights는 이제 생성 AI 콘텐츠를 전용 GenAIContent 테이블(AppGenAIContent in Log Analytics)에 저장하여 민감한 AI 텔레메트리에 새로운 접근 제어를 적용할 수 있게 합니다. Application Insights p",
+      "status": "In preview",
+      "category": "DevOps",
+      "link": "https://azure.microsoft.com/updates?id=567594",
+      "date": "2026-07-20T15:09:43.000Z"
+    },
+    {
+      "title": "Generally Available: IPv6 support for Azure VPN Gateway",
+      "titleKo": "일반 제공: Azure VPN Gateway의 IPv6 지원",
+      "summaryKo": "Azure VPN Gateway의 IPv6 지원으로 고객은 이중 스택 구성에서 VPN 터널을 통해 IPv6 내부 트래픽을 실행할 수 있습니다. IPv6는 표준 공용 IP를 사용하는 모든 프로덕션 SKU 게이트웨이에서 지원됩니다. IPv6 내부 트래픽은 n",
+      "status": "Launched",
+      "category": "Networking",
+      "link": "https://azure.microsoft.com/updates?id=567847",
+      "date": "2026-07-20T14:59:26.000Z"
+    },
+    {
       "title": "Generally Available: Azure Functions support for Python 3.14",
       "titleKo": "일반 제공: Python 3.14에 대한 Azure Functions 지원",
-      "summaryKo": "이제 Python 3.14를 사용하여 로컬에서 함수를 개발하고 Azure Functions 계획에 배포할 수 있습니다. 향상된 보안, 더 긴 지원 기간 및 Azure Functions와의 지속적인 호환성을 활용하려면 앱을 Python 3.14로 업그레이드하세요.",
+      "summaryKo": "이제 Python 3.14를 사용하여 로컬에서 함수를 개발하고 이를 Linux의 Azure Functions 계획에 배포할 수 있습니다. 앱을 Python 3.14로 업그레이드하여 보안 강화, 더 긴 지원 기간 및 Azure Functions와의 지속적인 호환성을 활용하세요.",
       "status": "Launched",
       "category": "Compute",
       "link": "https://azure.microsoft.com/updates?id=567646",
@@ -15,7 +33,7 @@
     {
       "title": "Public Preview: Azure Functions Support for PowerShell 7.6",
       "titleKo": "공식 미리보기: PowerShell 7.6에 대한 Azure Functions 지원",
-      "summaryKo": "Azure Functions의 PowerShell 7.6 지원이 이제 미리보기로 제공됩니다. 이제 PowerShell 7.6을 사용하여 로컬에서 앱을 개발하고 Azure Functions 계획에 배포할 수 있습니다. 자세히 알아보기: PowerShell 7.6의 새로운 기능, Azure Functions PowerShell 버전 및 그들의.",
+      "summaryKo": "Azure Functions의 PowerShell 7.6 지원이 이제 미리보기로 제공됩니다. 이제 PowerShell 7.6을 사용하여 로컬에서 앱을 개발하고 이를 Azure Functions 계획에 배포할 수 있습니다. 자세히 알아보기: PowerShell 7.6의 새로운 기능 Azure Functions PowerShell 버전 및 그들의",
       "status": "Launched",
       "category": "Compute",
       "link": "https://azure.microsoft.com/updates?id=567651",
@@ -24,29 +42,11 @@
     {
       "title": "Generally Available: Microsoft Defender security assessments for Azure Database for PostgreSQL Flexible Server",
       "titleKo": "일반 제공: Azure Database for PostgreSQL Flexible Server에 대한 Microsoft Defender 보안 평가",
-      "summaryKo": "Azure Database for PostgreSQL Flexible Server에 대한 Microsoft Defender Cloud Security Posture Management (CSPM) 평가가 이제 일반 제공됩니다. 평가를 사용하여 Azure PostgreSQL Flexible Server의 보안 상태를 지속적으로 평가할 수 있습니다.",
+      "summaryKo": "Azure Database for PostgreSQL Flexible Server에 대한 Microsoft Defender Cloud Security Posture Management (CSPM) 평가가 이제 일반 제공됩니다. 평가를 사용하여 Azure PostgreSQL Flexible Server의 보안 태세를 지속적으로 평가할 수 있습니다.",
       "status": "Launched",
       "category": "Databases",
       "link": "https://azure.microsoft.com/updates?id=567527",
       "date": "2026-07-17T14:55:28.000Z"
-    },
-    {
-      "title": "Generally Available: Encryption in Transit for Azure Files NFS Shares in Azure Kubernetes Service (AKS)",
-      "titleKo": "일반 제공: Azure Kubernetes Service(AKS)에서 Azure Files NFS 공유를 위한 전송 중 암호화",
-      "summaryKo": "Azure Kubernetes Service(AKS)는 이제 Azure Files NFS v4.1 볼륨에 대해 Azure File CSI 드라이버를 통해 전송 중 암호화(EiT)를 일반적으로 지원합니다. EiT가 활성화되면 AKS 작업과 Azure Files NFS 공유 간에 전송되는 데이터가 TLS를 사용하여 암호화됩니다.",
-      "status": "Launched",
-      "category": "Storage",
-      "link": "https://azure.microsoft.com/updates?id=567787",
-      "date": "2026-07-17T14:54:09.000Z"
-    },
-    {
-      "title": "Announcing: GitHub Copilot and Claude Code connectors in Microsoft Agent Framework",
-      "titleKo": "발표: Microsoft Agent Framework의 GitHub Copilot 및 Claude Code 커넥터",
-      "summaryKo": "Microsoft Agent Framework는 이제 GitHub Copilot 및 Claude Code에 대한 일반 제공 커넥터를 제공합니다. 이를 통해 개발자는 사용자 정의 어댑터 코드를 작성하지 않고도 .NET 및 Python 에이전트를 구축하여 코딩 작업을 두 시스템 중 하나에 위임할 수 있습니다.",
-      "status": "",
-      "category": "AI + machine learning",
-      "link": "https://azure.microsoft.com/updates?id=563701",
-      "date": "2026-07-15T18:58:30.000Z"
     }
   ]
 }
