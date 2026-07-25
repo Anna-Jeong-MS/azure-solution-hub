@@ -1,12 +1,12 @@
 {
-  "generatedAt": "2026-07-24T21:21:54.519Z",
+  "generatedAt": "2026-07-25T21:15:53.306Z",
   "source": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
   "translated": true,
   "items": [
     {
       "title": "Public Preview: Azure DDoS Protection custom policy",
       "titleKo": "공식 미리보기: Azure DDoS Protection 사용자 정의 정책",
-      "summaryKo": "Azure DDoS Protection 사용자 정의 정책이 공식 미리보기로 제공됩니다. 이 기능은 보호된 Standard Load Balancer 프론트엔드 IP 구성에 대한 DDoS 완화 임계값을 리소스별로 제어할 수 있습니다. 고객은 고정된 인바운드 탐지 임계값을 설정할 수 있습니다.",
+      "summaryKo": "Azure DDoS Protection 사용자 정의 정책이 이제 공식 미리보기로 제공됩니다. 이 기능은 보호된 Standard Load Balancer 프론트엔드 IP 구성에 대한 DDoS 완화 임계값을 리소스별로 제어할 수 있습니다. 고객은 고정된 수신 탐지 임계값을 구성할 수 있습니다.",
       "status": "In preview",
       "category": "Networking",
       "link": "https://azure.microsoft.com/updates?id=568063",
@@ -15,7 +15,7 @@
     {
       "title": "Public Preview: Standard service endpoint",
       "titleKo": "공식 미리보기: Standard 서비스 엔드포인트",
-      "summaryKo": "Standard 서비스 엔드포인트가 공식 미리보기로 제공되며, IaaS 워크로드를 Private Link 계열의 Azure PaaS 서비스에 연결하는 확장 가능하고 안전한 방법을 소개합니다. 이 향상된 기능은 기존의 확장성 및 관리 제한을 극복합니다.",
+      "summaryKo": "Standard 서비스 엔드포인트가 이제 공식 미리보기로 제공되며, IaaS 워크로드를 Private Link 가족의 Azure PaaS 서비스에 연결하는 확장 가능하고 안전한 방법을 소개합니다. 이 향상된 기능은 관리 및 확장성의 한계를 극복합니다.",
       "status": "In preview",
       "category": "Networking",
       "link": "https://azure.microsoft.com/updates?id=561475",
@@ -33,7 +33,7 @@
     {
       "title": "Generally Available: IPv6 support for Azure VPN Gateway",
       "titleKo": "일반 제공: Azure VPN Gateway의 IPv6 지원",
-      "summaryKo": "Azure VPN Gateway의 IPv6 지원을 통해 고객은 이중 스택 구성에서 VPN 터널을 통해 IPv6 내부 트래픽을 실행할 수 있습니다. IPv6는 표준 공용 IP를 사용하는 모든 프로덕션 SKU 게이트웨이에서 지원됩니다. IPv6 내부 트래픽은...",
+      "summaryKo": "Azure VPN Gateway의 IPv6 지원은 고객이 이중 스택 구성에서 VPN 터널을 통해 IPv6 내부 트래픽을 실행할 수 있게 합니다. IPv6는 표준 공용 IP를 사용하는 모든 생산 SKU 게이트웨이에서 지원됩니다. IPv6 내부 트래픽은...",
       "status": "Launched",
       "category": "Networking",
       "link": "https://azure.microsoft.com/updates?id=567847",
