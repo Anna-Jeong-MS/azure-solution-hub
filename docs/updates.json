@@ -1,52 +1,52 @@
 {
-  "generatedAt": "2026-07-27T21:23:10.817Z",
+  "generatedAt": "2026-07-28T21:23:12.752Z",
   "source": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
   "translated": true,
   "items": [
     {
-      "title": "Generally Available: Claude Opus 5 on Azure Databricks",
-      "titleKo": "일반 제공: Azure Databricks의 Claude Opus 5",
-      "summaryKo": "Azure Databricks는 이제 AI 모델 서빙을 통해 Anthropic Claude Opus 5를 지원합니다. Claude Opus 5는 고급 추론, 코딩, 에이전트 워크플로 및 전문 지식 작업을 위한 Anthropic의 최신 모델입니다. Claude Opus 5는 복잡한 작업을 위해 설계되었습니다.",
+      "title": "Public Preview: Azure Enclave",
+      "titleKo": "공식 미리보기: Azure Enclave",
+      "summaryKo": "Microsoft Azure, Azure Government, Azure Government Secret 및 Azure Government Top Secret에 대한 Azure Enclave의 공식 미리보기를 발표합니다. Azure Enclave는 민감한 작업을 위한 격리된 클라우드 환경의 배포 및 관리를 간소화합니다.",
+      "status": "In preview",
+      "category": "Security",
+      "link": "https://azure.microsoft.com/updates?id=568377",
+      "date": "2026-07-28T18:51:02.000Z"
+    },
+    {
+      "title": "Generally Available: NAT64 on StandardV2 NAT Gateway",
+      "titleKo": "일반 제공: StandardV2 NAT Gateway의 NAT64 지원",
+      "summaryKo": "StandardV2 NAT Gateway가 이제 NAT64를 지원하여 IPv6 작업 부하가 IPv4 전용 인터넷 목적지와 통신할 수 있도록 합성된 아웃바운드 IPv6 트래픽을 IPv4 트래픽으로 변환합니다. NAT64는 DNS64 지원 해석기를 사용하여 IPv6 주소를 합성합니다.",
       "status": "Launched",
-      "category": "AI + machine learning",
-      "link": "https://azure.microsoft.com/updates?id=568316",
-      "date": "2026-07-27T19:41:46.000Z"
+      "category": "Networking",
+      "link": "https://azure.microsoft.com/updates?id=568409",
+      "date": "2026-07-28T18:50:11.000Z"
     },
     {
-      "title": "Generally Available: HTTP header insertion in Azure Firewall",
-      "titleKo": "일반 제공: Azure Firewall의 HTTP 헤더 삽입",
-      "summaryKo": "Azure Firewall은 이제 HTTP 헤더 삽입을 지원하여 조직이 Azure Firewall 애플리케이션 규칙에서 직접 HTTP/HTTPS 요청 헤더를 추가하거나 덮어쓸 수 있습니다. 이 기능은 고객이 보안 제어를 시행하고 테넌트 제한을 지원하는 데 도움이 됩니다.",
+      "title": "Generally Available: Application Routing with Gateway API",
+      "titleKo": "일반 제공: Gateway API를 통한 애플리케이션 라우팅",
+      "summaryKo": "신규 Kubernetes 표준을 채택하면서 인그레스 라우팅을 관리하는 것은 기존 배포와 현대화 노력을 균형 있게 조정해야 할 수 있습니다. Gateway API를 통한 애플리케이션 라우팅이 이제 AKS에서 일반 제공됩니다.",
       "status": "Launched",
-      "category": "Networking",
-      "link": "https://azure.microsoft.com/updates?id=568115",
-      "date": "2026-07-27T16:54:36.000Z"
+      "category": "Compute",
+      "link": "https://azure.microsoft.com/updates?id=567944",
+      "date": "2026-07-28T16:54:22.000Z"
     },
     {
-      "title": "Public Preview: AI Gateway in Azure API Management",
-      "titleKo": "공식 미리보기: Azure API Management의 AI Gateway",
-      "summaryKo": "Azure API Management의 AI Gateway 계층이 이제 공식 미리보기로 제공됩니다. API Management 계층에서 이미 제공되는 AI 게이트웨이 기능을 기반으로, 새로운 AI Gateway 계층은 AI 작업 부하에 최적화된 전용 경험을 제공합니다.",
-      "status": "In preview",
-      "category": "Integration",
-      "link": "https://azure.microsoft.com/updates?id=568184",
-      "date": "2026-07-27T16:44:29.000Z"
+      "title": "Generally Available: Resource placement in Azure Kubernetes Fleet Manager",
+      "titleKo": "일반 제공: Azure Kubernetes Fleet Manager의 리소스 배치",
+      "summaryKo": "여러 클러스터에 걸쳐 Kubernetes 리소스를 관리하는 것은 업데이트를 적용하고 일관성을 유지하기 위해 상당한 수작업이 필요할 수 있습니다. Azure Kubernetes Fleet Manager의 리소스 배치가 이제 일반 제공되며 플랫폼 및 애플리케이션 팀을 지원합니다.",
+      "status": "Launched",
+      "category": "Containers",
+      "link": "https://azure.microsoft.com/updates?id=567931",
+      "date": "2026-07-28T16:52:51.000Z"
     },
     {
-      "title": "Public Preview: Azure DDoS Protection custom policy",
-      "titleKo": "공식 미리보기: Azure DDoS Protection 사용자 지정 정책",
-      "summaryKo": "Azure DDoS Protection 사용자 지정 정책이 이제 공식 미리보기로 제공됩니다. 이 기능은 보호된 Standard Load Balancer 프론트엔드 IP 구성에 대한 DDoS 완화 임계값에 대한 리소스별 제어를 제공합니다. 고객은 고정된 인바운드 탐지 임계값을 구성할 수 있습니다.",
+      "title": "Public Preview: Maximum allowed failures for update runs in Azure Kubernetes Fleet Manager",
+      "titleKo": "공식 미리보기: Azure Kubernetes Fleet Manager의 업데이트 실행에 대한 최대 허용 실패 수",
+      "summaryKo": "빠른 실패 업데이트 롤아웃에서 소수의 멤버 클러스터 업데이트 실패가 더 넓은 업데이트 배포의 진행을 중단시킬 수 있습니다. Azure Kubernetes Fleet Manager의 업데이트 실행에 대한 최대 허용 실패 수가 이제 미리보기로 제공되며 옵션을 도입합니다.",
       "status": "In preview",
-      "category": "Networking",
-      "link": "https://azure.microsoft.com/updates?id=568063",
-      "date": "2026-07-23T16:47:24.000Z"
-    },
-    {
-      "title": "Public Preview: Standard service endpoint",
-      "titleKo": "공식 미리보기: 표준 서비스 엔드포인트",
-      "summaryKo": "표준 서비스 엔드포인트가 이제 공식 미리보기로 제공되며, IaaS 작업 부하를 Private Link 계열의 Azure PaaS 서비스에 연결하는 확장 가능하고 안전한 방법을 도입합니다. 이 향상된 기능은 규모 및 관리 제한을 극복합니다.",
-      "status": "In preview",
-      "category": "Networking",
-      "link": "https://azure.microsoft.com/updates?id=561475",
-      "date": "2026-07-22T16:57:10.000Z"
+      "category": "Containers",
+      "link": "https://azure.microsoft.com/updates?id=567939",
+      "date": "2026-07-28T16:51:04.000Z"
     }
   ]
 }
