@@ -1,8 +1,26 @@
 {
-  "generatedAt": "2026-07-28T21:23:12.752Z",
+  "generatedAt": "2026-07-29T21:17:04.161Z",
   "source": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
   "translated": true,
   "items": [
+    {
+      "title": "Public Preview: Azure Monitor Logs mirroring into Microsoft Fabric",
+      "titleKo": "공식 미리보기: Azure Monitor Logs를 Microsoft Fabric으로 미러링",
+      "summaryKo": "이 기능은 Azure Monitor Log Analytics 작업 공간의 텔레메트리를 Microsoft Fabric으로 공유하여 OneLake에서 델타 파켓 형식으로 중복 없이 거의 실시간으로 관찰 가능 데이터를 제공합니다.",
+      "status": "In preview",
+      "category": "DevOps",
+      "link": "https://azure.microsoft.com/updates?id=568322",
+      "date": "2026-07-29T18:52:32.000Z"
+    },
+    {
+      "title": "Generally Available: Azure Sphere OS version 26.09 is now available for evaluation",
+      "titleKo": "일반 제공: Azure Sphere OS 버전 26.09 평가 가능",
+      "summaryKo": "Azure Sphere OS 버전 26.09 RC1이 소매 평가 피드에서 평가를 위해 제공됩니다. 이 릴리스는 고객에게 보이는 변경 사항이 없지만 Azure Sphere의 기본 Linux 커널 버전의 주요 업데이트를 나타냅니다.",
+      "status": "Launched",
+      "category": "Internet of Things",
+      "link": "https://azure.microsoft.com/updates?id=568466",
+      "date": "2026-07-29T18:50:00.000Z"
+    },
     {
       "title": "Public Preview: Azure Enclave",
       "titleKo": "공식 미리보기: Azure Enclave",
@@ -15,7 +33,7 @@
     {
       "title": "Generally Available: NAT64 on StandardV2 NAT Gateway",
       "titleKo": "일반 제공: StandardV2 NAT Gateway의 NAT64 지원",
-      "summaryKo": "StandardV2 NAT Gateway가 이제 NAT64를 지원하여 IPv6 작업 부하가 IPv4 전용 인터넷 목적지와 통신할 수 있도록 합성된 아웃바운드 IPv6 트래픽을 IPv4 트래픽으로 변환합니다. NAT64는 DNS64 지원 해석기를 사용하여 IPv6 주소를 합성합니다.",
+      "summaryKo": "StandardV2 NAT Gateway는 이제 NAT64를 지원하여 IPv6 작업이 IPv4 전용 인터넷 대상으로 통신할 수 있도록 아웃바운드 IPv6 트래픽을 IPv4 트래픽으로 변환합니다. NAT64는 IPv6 주소를 합성하기 위해 DNS64 지원 해석기에 의존합니다.",
       "status": "Launched",
       "category": "Networking",
       "link": "https://azure.microsoft.com/updates?id=568409",
@@ -24,29 +42,11 @@
     {
       "title": "Generally Available: Application Routing with Gateway API",
       "titleKo": "일반 제공: Gateway API를 통한 애플리케이션 라우팅",
-      "summaryKo": "신규 Kubernetes 표준을 채택하면서 인그레스 라우팅을 관리하는 것은 기존 배포와 현대화 노력을 균형 있게 조정해야 할 수 있습니다. Gateway API를 통한 애플리케이션 라우팅이 이제 AKS에서 일반 제공됩니다.",
+      "summaryKo": "새로운 Kubernetes 표준을 채택하면서 인그레스 라우팅을 관리하는 것은 기존 배포와 현대화 노력을 균형 있게 조정해야 할 수 있습니다. Gateway API를 통한 애플리케이션 라우팅이 이제 AKS에서 일반 제공됩니다.",
       "status": "Launched",
       "category": "Compute",
       "link": "https://azure.microsoft.com/updates?id=567944",
       "date": "2026-07-28T16:54:22.000Z"
-    },
-    {
-      "title": "Generally Available: Resource placement in Azure Kubernetes Fleet Manager",
-      "titleKo": "일반 제공: Azure Kubernetes Fleet Manager의 리소스 배치",
-      "summaryKo": "여러 클러스터에 걸쳐 Kubernetes 리소스를 관리하는 것은 업데이트를 적용하고 일관성을 유지하기 위해 상당한 수작업이 필요할 수 있습니다. Azure Kubernetes Fleet Manager의 리소스 배치가 이제 일반 제공되며 플랫폼 및 애플리케이션 팀을 지원합니다.",
-      "status": "Launched",
-      "category": "Containers",
-      "link": "https://azure.microsoft.com/updates?id=567931",
-      "date": "2026-07-28T16:52:51.000Z"
-    },
-    {
-      "title": "Public Preview: Maximum allowed failures for update runs in Azure Kubernetes Fleet Manager",
-      "titleKo": "공식 미리보기: Azure Kubernetes Fleet Manager의 업데이트 실행에 대한 최대 허용 실패 수",
-      "summaryKo": "빠른 실패 업데이트 롤아웃에서 소수의 멤버 클러스터 업데이트 실패가 더 넓은 업데이트 배포의 진행을 중단시킬 수 있습니다. Azure Kubernetes Fleet Manager의 업데이트 실행에 대한 최대 허용 실패 수가 이제 미리보기로 제공되며 옵션을 도입합니다.",
-      "status": "In preview",
-      "category": "Containers",
-      "link": "https://azure.microsoft.com/updates?id=567939",
-      "date": "2026-07-28T16:51:04.000Z"
     }
   ]
 }
