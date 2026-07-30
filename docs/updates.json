@@ -1,52 +1,52 @@
 {
-  "generatedAt": "2026-07-29T21:17:04.161Z",
+  "generatedAt": "2026-07-30T21:22:36.780Z",
   "source": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
-  "translated": true,
+  "translated": false,
   "items": [
     {
-      "title": "Public Preview: Azure Monitor Logs mirroring into Microsoft Fabric",
-      "titleKo": "공식 미리보기: Azure Monitor Logs를 Microsoft Fabric으로 미러링",
-      "summaryKo": "이 기능은 Azure Monitor Log Analytics 작업 공간의 텔레메트리를 Microsoft Fabric으로 공유하여 OneLake에서 델타 파켓 형식으로 중복 없이 거의 실시간으로 관찰 가능 데이터를 제공합니다.",
-      "status": "In preview",
-      "category": "DevOps",
-      "link": "https://azure.microsoft.com/updates?id=568322",
-      "date": "2026-07-29T18:52:32.000Z"
-    },
-    {
-      "title": "Generally Available: Azure Sphere OS version 26.09 is now available for evaluation",
-      "titleKo": "일반 제공: Azure Sphere OS 버전 26.09 평가 가능",
-      "summaryKo": "Azure Sphere OS 버전 26.09 RC1이 소매 평가 피드에서 평가를 위해 제공됩니다. 이 릴리스는 고객에게 보이는 변경 사항이 없지만 Azure Sphere의 기본 Linux 커널 버전의 주요 업데이트를 나타냅니다.",
+      "title": "Generally Available: Azure Database for PostgreSQL flexible server in India South Central",
+      "titleKo": "Generally Available: Azure Database for PostgreSQL flexible server in India South Central",
+      "summaryKo": "Now you can deploy Azure Database for PostgreSQL flexible server in the India South Central Azure region. Learn more.",
       "status": "Launched",
-      "category": "Internet of Things",
-      "link": "https://azure.microsoft.com/updates?id=568466",
-      "date": "2026-07-29T18:50:00.000Z"
+      "category": "Databases",
+      "link": "https://azure.microsoft.com/updates?id=568334",
+      "date": "2026-07-30T19:14:44.000Z"
     },
     {
-      "title": "Public Preview: Azure Enclave",
-      "titleKo": "공식 미리보기: Azure Enclave",
-      "summaryKo": "Microsoft Azure, Azure Government, Azure Government Secret 및 Azure Government Top Secret에 대한 Azure Enclave의 공식 미리보기를 발표합니다. Azure Enclave는 민감한 작업을 위한 격리된 클라우드 환경의 배포 및 관리를 간소화합니다.",
+      "title": "Generally Available: Azure Automation supports PowerShell 7.6 runbooks and Runtime environment",
+      "titleKo": "Generally Available: Azure Automation supports PowerShell 7.6 runbooks and Runtime environment",
+      "summaryKo": "Azure Automation is pleased to announce: General Availability of in-support PowerShell 7.6 runbooksRuntime Environment GA, enabling customers to seamlessly upgrade their outdated scripts to supported runtime versions. Support for Azure CLI commands in P",
+      "status": "Launched",
+      "category": "Management and governance",
+      "link": "https://azure.microsoft.com/updates?id=568102",
+      "date": "2026-07-30T19:10:35.000Z"
+    },
+    {
+      "title": "Announcing: Reservation exchanges for Azure services supported by savings plans will no longer be available starting February 1, 2027",
+      "titleKo": "Announcing: Reservation exchanges for Azure services supported by savings plans will no longer be available starting February 1, 2027",
+      "summaryKo": "Starting February 1, 2027, Azure reservations exchanges will no longer be available for services covered by savings plans. At the time of this announcement, this includes reservations for the following services: Compute services: Azure Virtual Machine",
+      "status": "",
+      "category": "Announcement",
+      "link": "https://azure.microsoft.com/updates?id=568514",
+      "date": "2026-07-30T19:03:21.000Z"
+    },
+    {
+      "title": "Public Preview: Symmetric keys on Azure Key Vault Premium",
+      "titleKo": "Public Preview: Symmetric keys on Azure Key Vault Premium",
+      "summaryKo": "We’re announcing symmetric keys on Azure Key Vault Premium are now available in public preview. This preview enables customers and partners to evaluate symmetric encryption capabilities using the oct-HSM key type and the Advanced Encryption Standard (AES)",
       "status": "In preview",
       "category": "Security",
-      "link": "https://azure.microsoft.com/updates?id=568377",
-      "date": "2026-07-28T18:51:02.000Z"
+      "link": "https://azure.microsoft.com/updates?id=566746",
+      "date": "2026-07-30T18:57:18.000Z"
     },
     {
-      "title": "Generally Available: NAT64 on StandardV2 NAT Gateway",
-      "titleKo": "일반 제공: StandardV2 NAT Gateway의 NAT64 지원",
-      "summaryKo": "StandardV2 NAT Gateway는 이제 NAT64를 지원하여 IPv6 작업이 IPv4 전용 인터넷 대상으로 통신할 수 있도록 아웃바운드 IPv6 트래픽을 IPv4 트래픽으로 변환합니다. NAT64는 IPv6 주소를 합성하기 위해 DNS64 지원 해석기에 의존합니다.",
-      "status": "Launched",
-      "category": "Networking",
-      "link": "https://azure.microsoft.com/updates?id=568409",
-      "date": "2026-07-28T18:50:11.000Z"
-    },
-    {
-      "title": "Generally Available: Application Routing with Gateway API",
-      "titleKo": "일반 제공: Gateway API를 통한 애플리케이션 라우팅",
-      "summaryKo": "새로운 Kubernetes 표준을 채택하면서 인그레스 라우팅을 관리하는 것은 기존 배포와 현대화 노력을 균형 있게 조정해야 할 수 있습니다. Gateway API를 통한 애플리케이션 라우팅이 이제 AKS에서 일반 제공됩니다.",
-      "status": "Launched",
-      "category": "Compute",
-      "link": "https://azure.microsoft.com/updates?id=567944",
-      "date": "2026-07-28T16:54:22.000Z"
+      "title": "Public Preview: Support for SMB Opportunistic Locking (Oplocks) configuration",
+      "titleKo": "Public Preview: Support for SMB Opportunistic Locking (Oplocks) configuration",
+      "summaryKo": "Azure NetApp Files now supports configuration of SMB opportunistic locking (oplocks) for SMB and dual-protocol volumes. Opportunistic locks (Oplocks) improve SMB client caching and are enabled by default. You can configure oplocks on new volumes or update",
+      "status": "In preview",
+      "category": "Storage",
+      "link": "https://azure.microsoft.com/updates?id=568396",
+      "date": "2026-07-30T16:38:15.000Z"
     }
   ]
 }
