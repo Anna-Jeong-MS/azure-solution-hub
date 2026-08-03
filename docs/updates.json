@@ -1,8 +1,26 @@
 {
-  "generatedAt": "2026-08-02T21:16:11.754Z",
+  "generatedAt": "2026-08-03T21:22:26.400Z",
   "source": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
   "translated": false,
   "items": [
+    {
+      "title": "Generally Available: Trusted Launch as Default",
+      "titleKo": "Generally Available: Trusted Launch as Default",
+      "summaryKo": "Trusted Launch as Default (TLaD) is now generally available for new Azure Gen2 virtual machines and virtual machine scale sets. TLaD automatically enables Secure Boot and vTPM for supported deployments, helping customers establish a stronger security base",
+      "status": "Launched",
+      "category": "Compute",
+      "link": "https://azure.microsoft.com/updates?id=568600",
+      "date": "2026-08-03T19:56:26.000Z"
+    },
+    {
+      "title": "Generally Available: Immutability to the most recent seven days of backups on Azure SQL Database and Azure SQL Managed Instance",
+      "titleKo": "Generally Available: Immutability to the most recent seven days of backups on Azure SQL Database and Azure SQL Managed Instance",
+      "summaryKo": "To enhance backup protection, Azure SQL Database and Azure SQL Managed Instance now automatically apply immutability to the most recent seven days of backups. This capability is enabled by default for all databases, regardless of the configured point-in-t",
+      "status": "Launched",
+      "category": "Databases",
+      "link": "https://azure.microsoft.com/updates?id=568339",
+      "date": "2026-08-03T17:00:56.000Z"
+    },
     {
       "title": "Generally Available: Single-click purchase for public SaaS offers",
       "titleKo": "Generally Available: Single-click purchase for public SaaS offers",
@@ -29,24 +47,6 @@
       "category": "Databases",
       "link": "https://azure.microsoft.com/updates?id=568139",
       "date": "2026-07-31T18:16:23.000Z"
-    },
-    {
-      "title": "Generally Available: Azure Database for PostgreSQL flexible server in India South Central",
-      "titleKo": "Generally Available: Azure Database for PostgreSQL flexible server in India South Central",
-      "summaryKo": "Now you can deploy Azure Database for PostgreSQL flexible server in the India South Central Azure region. Learn more.",
-      "status": "Launched",
-      "category": "Databases",
-      "link": "https://azure.microsoft.com/updates?id=568334",
-      "date": "2026-07-30T19:14:44.000Z"
-    },
-    {
-      "title": "Generally Available: Azure Automation supports PowerShell 7.6 runbooks and Runtime environment",
-      "titleKo": "Generally Available: Azure Automation supports PowerShell 7.6 runbooks and Runtime environment",
-      "summaryKo": "Azure Automation is pleased to announce: General Availability of in-support PowerShell 7.6 runbooksRuntime Environment GA, enabling customers to seamlessly upgrade their outdated scripts to supported runtime versions. Support for Azure CLI commands in P",
-      "status": "Launched",
-      "category": "Management and governance",
-      "link": "https://azure.microsoft.com/updates?id=568102",
-      "date": "2026-07-30T19:10:35.000Z"
     }
   ]
 }
