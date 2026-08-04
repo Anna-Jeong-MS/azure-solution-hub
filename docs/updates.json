@@ -1,8 +1,44 @@
 {
-  "generatedAt": "2026-08-03T21:22:26.400Z",
+  "generatedAt": "2026-08-04T21:24:53.687Z",
   "source": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
   "translated": false,
   "items": [
+    {
+      "title": "Public Preview: Perimeter link feature in network security perimeter",
+      "titleKo": "Public Preview: Perimeter link feature in network security perimeter",
+      "summaryKo": "Perimeter link (cross-perimeter connectivity) is a network security perimeter capability that allows trusted resources in two different network security perimeters to securely communicate with each other using Managed Identity (MSI), without requiring add",
+      "status": "In preview",
+      "category": "Networking",
+      "link": "https://azure.microsoft.com/updates?id=568837",
+      "date": "2026-08-04T18:30:09.000Z"
+    },
+    {
+      "title": "Public Preview: Azure Private Link support over IPv6",
+      "titleKo": "Public Preview: Azure Private Link support over IPv6",
+      "summaryKo": "Azure Private Link over IPv6 enables you to privately access Azure PaaS services, such as Azure Storage and Azure SQL Database, over IPv6-based connectivity. You can now use IPv6 private endpoints to connect from IPv6 clients in an Azure virtual network o",
+      "status": "In preview",
+      "category": "Networking",
+      "link": "https://azure.microsoft.com/updates?id=568842",
+      "date": "2026-08-04T18:29:36.000Z"
+    },
+    {
+      "title": "Public Preview: Azure DNS enables DNS-based load balancing through Traffic Manager integration",
+      "titleKo": "Public Preview: Azure DNS enables DNS-based load balancing through Traffic Manager integration",
+      "summaryKo": "Azure DNS now offers a seamless way to integrate with Azure Traffic Manager for DNS-based traffic routing. Customers can now directly associate Azure DNS record set with Traffic Manager profiles without creating CNAME record for trafficmanager.net domain.",
+      "status": "In preview",
+      "category": "Networking",
+      "link": "https://azure.microsoft.com/updates?id=565214",
+      "date": "2026-08-04T17:04:55.000Z"
+    },
+    {
+      "title": "Generally Available: Azure Virtual Network routing appliance",
+      "titleKo": "Generally Available: Azure Virtual Network routing appliance",
+      "summaryKo": "Azure Virtual Network routing appliance is now generally available. It delivers private connectivity across virtual networks, using specialized hardware for low latency, high throughput, and better performance than virtual machines. Key benefits and funct",
+      "status": "Launched",
+      "category": "Networking",
+      "link": "https://azure.microsoft.com/updates?id=568605",
+      "date": "2026-08-04T17:03:38.000Z"
+    },
     {
       "title": "Generally Available: Trusted Launch as Default",
       "titleKo": "Generally Available: Trusted Launch as Default",
@@ -11,42 +47,6 @@
       "category": "Compute",
       "link": "https://azure.microsoft.com/updates?id=568600",
       "date": "2026-08-03T19:56:26.000Z"
-    },
-    {
-      "title": "Generally Available: Immutability to the most recent seven days of backups on Azure SQL Database and Azure SQL Managed Instance",
-      "titleKo": "Generally Available: Immutability to the most recent seven days of backups on Azure SQL Database and Azure SQL Managed Instance",
-      "summaryKo": "To enhance backup protection, Azure SQL Database and Azure SQL Managed Instance now automatically apply immutability to the most recent seven days of backups. This capability is enabled by default for all databases, regardless of the configured point-in-t",
-      "status": "Launched",
-      "category": "Databases",
-      "link": "https://azure.microsoft.com/updates?id=568339",
-      "date": "2026-08-03T17:00:56.000Z"
-    },
-    {
-      "title": "Generally Available: Single-click purchase for public SaaS offers",
-      "titleKo": "Generally Available: Single-click purchase for public SaaS offers",
-      "summaryKo": "Eligible SaaS products on Microsoft Marketplace now support a simplified purchase experience in Azure portal. Customers can review plan, billing, resource group, contact details, and terms information on a single page for completing the purchase. This exp",
-      "status": "Launched",
-      "category": "Feature",
-      "link": "https://azure.microsoft.com/updates?id=568591",
-      "date": "2026-07-31T22:32:52.000Z"
-    },
-    {
-      "title": "Public Preview: Route-Maps for Azure Route Server",
-      "titleKo": "Public Preview: Route-Maps for Azure Route Server",
-      "summaryKo": "Route maps for Azure Route Server are now available in public preview, providing fine-grained control over inbound and outbound routing across hybrid connections. Customers can manage routes advertised to and from Azure Route Server BGP peerings with Netw",
-      "status": "In preview",
-      "category": "Networking",
-      "link": "https://azure.microsoft.com/updates?id=568631",
-      "date": "2026-07-31T20:48:35.000Z"
-    },
-    {
-      "title": "Public Preview: Azure SQL updates for late-July",
-      "titleKo": "Public Preview: Azure SQL updates for late-July",
-      "summaryKo": "In late-July 2026, the following update and enhancement was made to Azure SQL: Regex-based dynamic data masking (DDM) extends the built-in DDM feature with pattern‑based masking to hide sensitive data like emails, phone numbers, and identifiers—centrally",
-      "status": "In preview",
-      "category": "Databases",
-      "link": "https://azure.microsoft.com/updates?id=568139",
-      "date": "2026-07-31T18:16:23.000Z"
     }
   ]
 }
