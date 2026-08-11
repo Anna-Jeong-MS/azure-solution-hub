@@ -1,8 +1,17 @@
 {
-  "generatedAt": "2026-08-10T21:14:05.587Z",
+  "generatedAt": "2026-08-11T21:14:48.525Z",
   "source": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
   "translated": false,
   "items": [
+    {
+      "title": "Generally Available: 2.2X IDPS performance optimization in Azure Firewall",
+      "titleKo": "Generally Available: 2.2X IDPS performance optimization in Azure Firewall",
+      "summaryKo": "Azure Firewall Premium now delivers up to 22 Gbps throughput with TLS inspection and IDPS in Deny mode, a 120% increase from 10 Gbps, and up to 600 Mbps per TCP connection with IDPS enabled in either Alert or Deny mode (doubled from 300 Mbps). Learn more.",
+      "status": "Launched",
+      "category": "Networking",
+      "link": "https://azure.microsoft.com/updates?id=569256",
+      "date": "2026-08-11T17:26:51.000Z"
+    },
     {
       "title": "Announcing: Microsoft Fabric Item Recovery will be enabled by default for tenants without an explicit setting",
       "titleKo": "Announcing: Microsoft Fabric Item Recovery will be enabled by default for tenants without an explicit setting",
@@ -38,15 +47,6 @@
       "category": "Migration",
       "link": "https://azure.microsoft.com/updates?id=567979",
       "date": "2026-08-06T16:40:19.000Z"
-    },
-    {
-      "title": "Generally Available: SharePoint Connector for Azure Databricks",
-      "titleKo": "Generally Available: SharePoint Connector for Azure Databricks",
-      "summaryKo": "The SharePoint connector for Azure Databricks is now generally available. Organizations can use Lakeflow Connect to ingest files from SharePoint into Azure Databricks, helping unify enterprise content with data and AI workflows on Azure. The connector sup",
-      "status": "Launched",
-      "category": "AI + machine learning",
-      "link": "https://azure.microsoft.com/updates?id=568905",
-      "date": "2026-08-05T22:34:02.000Z"
     }
   ]
 }
