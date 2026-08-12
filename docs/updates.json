@@ -1,8 +1,44 @@
 {
-  "generatedAt": "2026-08-11T21:14:48.525Z",
+  "generatedAt": "2026-08-12T21:14:27.663Z",
   "source": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
   "translated": false,
   "items": [
+    {
+      "title": "Retirement: Containerized data connector agent for the Microsoft Sentinel solution for SAP applications",
+      "titleKo": "Retirement: Containerized data connector agent for the Microsoft Sentinel solution for SAP applications",
+      "summaryKo": "On September 14, 2026 we will retire the containerized data connector agent for the Microsoft Sentinel solution for SAP applications. After this date the agent will be permanently disabled and will stop sending SAP logs to Microsoft Sentinel.The SAP agent",
+      "status": "Retirements",
+      "category": "Hybrid + multicloud",
+      "link": "https://azure.microsoft.com/updates?id=568457",
+      "date": "2026-08-12T19:41:20.000Z"
+    },
+    {
+      "title": "Generally Available: Batch rule updates for Azure Front Door",
+      "titleKo": "Generally Available: Batch rule updates for Azure Front Door",
+      "summaryKo": "Batch rule updates are now generally available for Azure Front Door Standard and Premium. This capability enables customers to add, update, delete, or reorder multiple rules in a rule set as a coordinated operation, ensuring that all changes are applied t",
+      "status": "Launched",
+      "category": "Networking",
+      "link": "https://azure.microsoft.com/updates?id=569246",
+      "date": "2026-08-12T17:03:08.000Z"
+    },
+    {
+      "title": "Public Preview: Azure Front Door mutual TLS",
+      "titleKo": "Public Preview: Azure Front Door mutual TLS",
+      "summaryKo": "Mutual TLS, also known as client certificate authentication, enables Azure Front Door to authenticate clients using X.509 certificates before requests reach an application. It helps protect sensitive applications and APIs across business-to-business, Inte",
+      "status": "In preview",
+      "category": "Networking",
+      "link": "https://azure.microsoft.com/updates?id=569251",
+      "date": "2026-08-12T17:01:19.000Z"
+    },
+    {
+      "title": "Public Preview: Markdown for Agents in Azure App Service",
+      "titleKo": "Public Preview: Markdown for Agents in Azure App Service",
+      "summaryKo": "Today, we are announcing the public preview of Markdown for Agents in Azure App Service. This feature gives AI agents and other tools a cleaner way to consume content from an App Service app. When a client requests Markdown, App Service can automatically",
+      "status": "In preview",
+      "category": "Compute",
+      "link": "https://azure.microsoft.com/updates?id=568979",
+      "date": "2026-08-12T16:38:31.000Z"
+    },
     {
       "title": "Generally Available: 2.2X IDPS performance optimization in Azure Firewall",
       "titleKo": "Generally Available: 2.2X IDPS performance optimization in Azure Firewall",
@@ -11,42 +47,6 @@
       "category": "Networking",
       "link": "https://azure.microsoft.com/updates?id=569256",
       "date": "2026-08-11T17:26:51.000Z"
-    },
-    {
-      "title": "Announcing: Microsoft Fabric Item Recovery will be enabled by default for tenants without an explicit setting",
-      "titleKo": "Announcing: Microsoft Fabric Item Recovery will be enabled by default for tenants without an explicit setting",
-      "summaryKo": "Starting August 23, 2026, Microsoft Fabric will enable Item Recovery by default for tenants that have not explicitly configured the setting. Supported item types will have a 3-day recovery window by default. Admins can review or change this setting in the",
-      "status": "",
-      "category": "Analytics",
-      "link": "https://azure.microsoft.com/updates?id=569140",
-      "date": "2026-08-10T17:50:54.000Z"
-    },
-    {
-      "title": "Public Preview: Azure ExpressRoute resiliency guard",
-      "titleKo": "Public Preview: Azure ExpressRoute resiliency guard",
-      "summaryKo": "Azure ExpressRoute resiliency guard is now available in public preview for ExpressRoute virtual network gateways. The new resiliency model property lets you specify whether a gateway is intended for a single-homed or multi-homed configuration, helping ali",
-      "status": "In preview",
-      "category": "Hybrid + multicloud",
-      "link": "https://azure.microsoft.com/updates?id=568666",
-      "date": "2026-08-07T15:52:31.000Z"
-    },
-    {
-      "title": "Announcing: Azure Databricks Genie One and Genie Agents Free Usage extended through January 31, 2027",
-      "titleKo": "Announcing: Azure Databricks Genie One and Genie Agents Free Usage extended through January 31, 2027",
-      "summaryKo": "Free usage of Genie One and Genie Agents in Azure Databricks is now extended through January 31, 2027, from the previous end date of July 31, 2026. Budget controls do not apply to these products during the promotional period. The promotion covers usage by",
-      "status": "",
-      "category": "AI + machine learning",
-      "link": "https://azure.microsoft.com/updates?id=568964",
-      "date": "2026-08-06T19:41:52.000Z"
-    },
-    {
-      "title": "Public Preview: Migrate from AWS FSx for Windows File Server to Azure Files with Azure Storage Mover",
-      "titleKo": "Public Preview: Migrate from AWS FSx for Windows File Server to Azure Files with Azure Storage Mover",
-      "summaryKo": "Azure Storage Mover now supports agentless, cloud-to-cloud migration from AWS FSx for Windows File Server (SMB) to Azure Files (SMB), in preview. You can move your Windows file shares off FSx and into Azure Files without deploying or managing a migration",
-      "status": "In preview",
-      "category": "Migration",
-      "link": "https://azure.microsoft.com/updates?id=567979",
-      "date": "2026-08-06T16:40:19.000Z"
     }
   ]
 }
