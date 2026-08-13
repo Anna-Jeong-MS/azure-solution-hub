@@ -1,8 +1,35 @@
 {
-  "generatedAt": "2026-08-12T21:14:27.663Z",
+  "generatedAt": "2026-08-13T21:14:34.084Z",
   "source": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
   "translated": false,
   "items": [
+    {
+      "title": "Generally Available: Control plane metrics collection for AKS with Managed Prometheus",
+      "titleKo": "Generally Available: Control plane metrics collection for AKS with Managed Prometheus",
+      "summaryKo": "Control plane metrics collection for Azure Kubernetes Service (AKS), powered by Azure Monitor Managed Service for Prometheus, is now generally available.This capability gives AKS customers native observability into key managed control plane components, in",
+      "status": "Launched",
+      "category": "Compute",
+      "link": "https://azure.microsoft.com/updates?id=568830",
+      "date": "2026-08-13T16:19:56.000Z"
+    },
+    {
+      "title": "Generally Available: Live Resize for Shared Premium SSD v2 and Ultra Data Disks",
+      "titleKo": "Generally Available: Live Resize for Shared Premium SSD v2 and Ultra Data Disks",
+      "summaryKo": "We’re excited to announce the GA of Live Resize for shared Premium SSD v2 (Pv2) and Ultra data disks. This feature allows you to dynamically expand the storage capacity of your disks without any disruption to your applications. To optimize costs, you can",
+      "status": "Launched",
+      "category": "Storage",
+      "link": "https://azure.microsoft.com/updates?id=569281",
+      "date": "2026-08-13T16:17:41.000Z"
+    },
+    {
+      "title": "Generally Available: Pre-upgrade validation checks for Azure Database for PostgreSQL Flexible Server",
+      "titleKo": "Generally Available: Pre-upgrade validation checks for Azure Database for PostgreSQL Flexible Server",
+      "summaryKo": "Pre-upgrade validation checks are now generally available for Azure Database for PostgreSQL flexible server, helping you proactively validate major version upgrade (MVU) readiness before initiating the actual upgrade process. With the general availability",
+      "status": "Launched",
+      "category": "Databases",
+      "link": "https://azure.microsoft.com/updates?id=568419",
+      "date": "2026-08-13T16:13:22.000Z"
+    },
     {
       "title": "Retirement: Containerized data connector agent for the Microsoft Sentinel solution for SAP applications",
       "titleKo": "Retirement: Containerized data connector agent for the Microsoft Sentinel solution for SAP applications",
@@ -20,33 +47,6 @@
       "category": "Networking",
       "link": "https://azure.microsoft.com/updates?id=569246",
       "date": "2026-08-12T17:03:08.000Z"
-    },
-    {
-      "title": "Public Preview: Azure Front Door mutual TLS",
-      "titleKo": "Public Preview: Azure Front Door mutual TLS",
-      "summaryKo": "Mutual TLS, also known as client certificate authentication, enables Azure Front Door to authenticate clients using X.509 certificates before requests reach an application. It helps protect sensitive applications and APIs across business-to-business, Inte",
-      "status": "In preview",
-      "category": "Networking",
-      "link": "https://azure.microsoft.com/updates?id=569251",
-      "date": "2026-08-12T17:01:19.000Z"
-    },
-    {
-      "title": "Public Preview: Markdown for Agents in Azure App Service",
-      "titleKo": "Public Preview: Markdown for Agents in Azure App Service",
-      "summaryKo": "Today, we are announcing the public preview of Markdown for Agents in Azure App Service. This feature gives AI agents and other tools a cleaner way to consume content from an App Service app. When a client requests Markdown, App Service can automatically",
-      "status": "In preview",
-      "category": "Compute",
-      "link": "https://azure.microsoft.com/updates?id=568979",
-      "date": "2026-08-12T16:38:31.000Z"
-    },
-    {
-      "title": "Generally Available: 2.2X IDPS performance optimization in Azure Firewall",
-      "titleKo": "Generally Available: 2.2X IDPS performance optimization in Azure Firewall",
-      "summaryKo": "Azure Firewall Premium now delivers up to 22 Gbps throughput with TLS inspection and IDPS in Deny mode, a 120% increase from 10 Gbps, and up to 600 Mbps per TCP connection with IDPS enabled in either Alert or Deny mode (doubled from 300 Mbps). Learn more.",
-      "status": "Launched",
-      "category": "Networking",
-      "link": "https://azure.microsoft.com/updates?id=569256",
-      "date": "2026-08-11T17:26:51.000Z"
     }
   ]
 }
