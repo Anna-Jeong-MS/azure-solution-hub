@@ -1,8 +1,35 @@
 {
-  "generatedAt": "2026-08-17T21:05:22.411Z",
+  "generatedAt": "2026-08-18T21:04:27.568Z",
   "source": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
   "translated": false,
   "items": [
+    {
+      "title": "Retirement: Azure VMware Solution License-included service will be retired August 30, 2027",
+      "titleKo": "Retirement: Azure VMware Solution License-included service will be retired August 30, 2027",
+      "summaryKo": "In November last year Broadcom changed its VMware licensing policies across all hyperscaler platforms to require customers to “bring your own” portable license for VMware Cloud Foundation (VCF).What’s changing?On August 30, 2027, as a result of the latest",
+      "status": "Retirements",
+      "category": "Compute",
+      "link": "https://azure.microsoft.com/updates?id=569535",
+      "date": "2026-08-18T19:52:06.000Z"
+    },
+    {
+      "title": "Generally Available: Managed Instance on Azure App Service",
+      "titleKo": "Generally Available: Managed Instance on Azure App Service",
+      "summaryKo": "Managed Instance on Azure App Service is now generally available. Managed Instance helps organizations migrate web applications to Azure App Service with minimal configuration and no code changes. Applications running on-premises or in virtual machines ca",
+      "status": "Launched",
+      "category": "Compute",
+      "link": "https://azure.microsoft.com/updates?id=568952",
+      "date": "2026-08-18T17:26:25.000Z"
+    },
+    {
+      "title": "Public Preview: Ipv6 support in Azure Firewall",
+      "titleKo": "Public Preview: Ipv6 support in Azure Firewall",
+      "summaryKo": "Azure Firewall now supports IPv6 in public preview, enabling customers to configure Azure Firewall and Firewall Policy in dual-stack mode for both IPv4 and IPv6 traffic. This preview allows native IPv6 network-rule filtering and DNS Proxy support, helping",
+      "status": "In preview",
+      "category": "Networking",
+      "link": "https://azure.microsoft.com/updates?id=569520",
+      "date": "2026-08-18T17:25:30.000Z"
+    },
     {
       "title": "Public Preview: Zone redundancy for Azure SQL Managed Instance Next-gen General Purpose",
       "titleKo": "Public Preview: Zone redundancy for Azure SQL Managed Instance Next-gen General Purpose",
@@ -20,33 +47,6 @@
       "category": "Features",
       "link": "https://azure.microsoft.com/updates?id=557775",
       "date": "2026-08-17T19:37:49.000Z"
-    },
-    {
-      "title": "Public Preview: Azure Linux on WSL",
-      "titleKo": "Public Preview: Azure Linux on WSL",
-      "summaryKo": "Azure Linux on WSL is now available in Public Preview (Beta). Extending Azure Linux to the developer workstation means that teams can now:Validate behavior using production-aligned configurationsReproduce issues more reliablyReduce time spent debugging c",
-      "status": "In preview",
-      "category": "Azure Linux",
-      "link": "https://azure.microsoft.com/updates?id=569376",
-      "date": "2026-08-17T17:08:40.000Z"
-    },
-    {
-      "title": "Announcing: Azure Databricks Runtime 10.4 LTS will reach end of life on November 1, 2026",
-      "titleKo": "Announcing: Azure Databricks Runtime 10.4 LTS will reach end of life on November 1, 2026",
-      "summaryKo": "Azure Databricks Runtime 10.4 LTS, a Databricks-managed runtime available on Azure Databricks, reached end of support on March 18, 2025 and will reach end of life on November 1, 2026. After this date, Databricks Runtime 10.4 LTS will no longer be availabl",
-      "status": "",
-      "category": "AI + machine learning",
-      "link": "https://azure.microsoft.com/updates?id=569353",
-      "date": "2026-08-14T17:43:51.000Z"
-    },
-    {
-      "title": "Generally Available: Control plane metrics collection for AKS with Managed Prometheus",
-      "titleKo": "Generally Available: Control plane metrics collection for AKS with Managed Prometheus",
-      "summaryKo": "Control plane metrics collection for Azure Kubernetes Service (AKS), powered by Azure Monitor Managed Service for Prometheus, is now generally available.This capability gives AKS customers native observability into key managed control plane components, in",
-      "status": "Launched",
-      "category": "Compute",
-      "link": "https://azure.microsoft.com/updates?id=568830",
-      "date": "2026-08-13T16:19:56.000Z"
     }
   ]
 }
