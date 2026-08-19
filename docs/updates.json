@@ -1,8 +1,26 @@
 {
-  "generatedAt": "2026-08-18T21:04:27.568Z",
+  "generatedAt": "2026-08-19T21:08:25.435Z",
   "source": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
   "translated": false,
   "items": [
+    {
+      "title": "Generally Available: vCore Customization: Disable Multithreading and Configurable Constrained Cores",
+      "titleKo": "Generally Available: vCore Customization: Disable Multithreading and Configurable Constrained Cores",
+      "summaryKo": "Today, we are announcing the General Availability of VM vCore Customization for Azure Virtual Machines, introducing two new capabilities: Disable Simultaneous Multi-Threading/Hyper-Threading (SMT/HT) and Configurable Constrained Cores. These features prov",
+      "status": "Launched",
+      "category": "Compute",
+      "link": "https://azure.microsoft.com/updates?id=569051",
+      "date": "2026-08-19T17:20:42.000Z"
+    },
+    {
+      "title": "Generally Available: BYON (Bring Your Own NIC) in Azure Site Recovery",
+      "titleKo": "Generally Available: BYON (Bring Your Own NIC) in Azure Site Recovery",
+      "summaryKo": "Azure Site Recovery now lets you use and attach an existing, pre-provisioned Network Interface Card (NIC) in the target region for test-failover and failover in the Azure-to-Azure scenario. This helps preserve prepared networking configurations, reserve I",
+      "status": "Launched",
+      "category": "Management and governance",
+      "link": "https://azure.microsoft.com/updates?id=569515",
+      "date": "2026-08-19T16:36:30.000Z"
+    },
     {
       "title": "Retirement: Azure VMware Solution License-included service will be retired August 30, 2027",
       "titleKo": "Retirement: Azure VMware Solution License-included service will be retired August 30, 2027",
@@ -29,24 +47,6 @@
       "category": "Networking",
       "link": "https://azure.microsoft.com/updates?id=569520",
       "date": "2026-08-18T17:25:30.000Z"
-    },
-    {
-      "title": "Public Preview: Zone redundancy for Azure SQL Managed Instance Next-gen General Purpose",
-      "titleKo": "Public Preview: Zone redundancy for Azure SQL Managed Instance Next-gen General Purpose",
-      "summaryKo": "You can now benefit from enhanced resilience with the public preview of zone redundancy for Azure SQL Managed Instance Next-gen General Purpose. This update helps you improve business continuity by automatically distributing your compute and data across a",
-      "status": "In preview",
-      "category": "Databases",
-      "link": "https://azure.microsoft.com/updates?id=568344",
-      "date": "2026-08-17T19:54:52.000Z"
-    },
-    {
-      "title": "Generally Available: Dragon Copilot Physician Apps and Agents on Microsoft Marketplace",
-      "titleKo": "Generally Available: Dragon Copilot Physician Apps and Agents on Microsoft Marketplace",
-      "summaryKo": "This release adds Microsoft Marketplace as a new discovery and procurement channel for Dragon Copilot AI apps and agents. Dragon Copilot customers in the United States can now discover, evaluate and purchase Dragon Copilot Physician Apps and Agents throug",
-      "status": "Launched",
-      "category": "Features",
-      "link": "https://azure.microsoft.com/updates?id=557775",
-      "date": "2026-08-17T19:37:49.000Z"
     }
   ]
 }
