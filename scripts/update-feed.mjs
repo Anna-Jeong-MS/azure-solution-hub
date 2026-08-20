@@ -1,7 +1,10 @@
 // @ts-nocheck
 /**
  * Azure 서비스 업데이트 RSS를 수집해 최신 항목을 한국어로 번역하고
- * docs/updates.json 으로 저장합니다.
+ * docs/updates/ 아래에 저장합니다.
+ *   - updates.json        최신 스냅샷 (사이트 피드 표시용)
+ *   - daily/YYYY-MM-DD.json 날짜별 스냅샷 (이력 보관)
+ *   - all.json            누적 아카이브 (검색용, 중복 제거)
  *
  * - 번역: GitHub Models (GITHUB_TOKEN 사용, 추가 키 불필요)
  * - 실행: GitHub Actions (매일) 또는 로컬(`node scripts/update-feed.mjs`)
@@ -9,7 +12,7 @@
  * 번역에 실패해도 원문(영문)으로 폴백하여 항상 유효한 JSON을 생성합니다.
  */
 
-import { writeFile } from 'node:fs/promises';
+import { writeFile, readFile, mkdir } from 'node:fs/promises';
 import { fileURLToPath } from 'node:url';
 import { dirname, join } from 'node:path';
 
@@ -21,7 +24,10 @@ const MODELS_ENDPOINT = 'https://models.github.ai/inference/chat/completions';
 const KNOWN_STATUS = ['Launched', 'In preview', 'In development', 'Retirements'];
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
-const OUT_PATH = join(__dirname, '..', 'docs', 'updates.json');
+const UPDATES_DIR = join(__dirname, '..', 'docs', 'updates');
+const OUT_PATH = join(UPDATES_DIR, 'updates.json'); // 최신 스냅샷 (사이트 피드 표시용)
+const ALL_PATH = join(UPDATES_DIR, 'all.json'); // 누적 아카이브 (검색용)
+const DAILY_DIR = join(UPDATES_DIR, 'daily'); // 날짜별 스냅샷
 
 /** 간단한 엔터티 디코딩 (RSS 텍스트용) */
 function decode(str) {
@@ -184,8 +190,44 @@ async function main() {
     items,
   };
 
+  await mkdir(UPDATES_DIR, { recursive: true });
+  await mkdir(DAILY_DIR, { recursive: true });
+
+  // 1) 최신 스냅샷 (사이트 피드 표시용)
   await writeFile(OUT_PATH, JSON.stringify(out, null, 2) + '\n', 'utf8');
-  console.log(`[feed] wrote ${OUT_PATH} (${items.length} items, translated=${out.translated})`);
+
+  // 2) 날짜별 스냅샷 저장 (updates/daily/YYYY-MM-DD.json)
+  const day = new Date().toISOString().slice(0, 10);
+  const dailyPath = join(DAILY_DIR, `${day}.json`);
+  await writeFile(dailyPath, JSON.stringify(out, null, 2) + '\n', 'utf8');
+
+  // 3) 누적 아카이브(all.json) 병합 — link 기준 중복 제거, 최신순 정렬
+  let existing = [];
+  try {
+    const prev = JSON.parse(await readFile(ALL_PATH, 'utf8'));
+    if (Array.isArray(prev.items)) existing = prev.items;
+  } catch {
+    /* 최초 실행 — 아카이브 없음 */
+  }
+
+  const keyOf = (it) => it.link || `${it.title}|${it.date}`;
+  const byKey = new Map();
+  for (const it of existing) byKey.set(keyOf(it), it);
+  for (const it of items) byKey.set(keyOf(it), it); // 최신 번역본으로 갱신
+
+  const merged = [...byKey.values()].sort((a, b) => new Date(b.date) - new Date(a.date));
+  const allOut = {
+    generatedAt: new Date().toISOString(),
+    source: FEED_URL,
+    count: merged.length,
+    items: merged,
+  };
+  await writeFile(ALL_PATH, JSON.stringify(allOut, null, 2) + '\n', 'utf8');
+
+  console.log(
+    `[feed] wrote ${OUT_PATH}, ${dailyPath}, ${ALL_PATH} ` +
+      `(${items.length} new, ${merged.length} total, translated=${out.translated})`
+  );
 }
 
 main().catch((err) => {

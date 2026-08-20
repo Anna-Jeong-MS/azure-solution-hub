@@ -10,68 +10,123 @@
 
 | 섹션 | 설명 |
 | --- | --- |
-| 🧩 **솔루션 설명 자료** | 시나리오별 Microsoft 솔루션 아키텍처와 도입 가이드 (폴더 기반, 마크다운 + 이미지) |
-| 🧪 **실습 워크샵** | Infra · Data · AI Apps 카테고리별 핸즈온 워크샵. GitHub 저장소와 자동 연동 |
-| ✨ **신규 기능** | 최신 제품·서비스 업데이트 소식 |
+| 🧩 **솔루션 설명 자료** | 카테고리별 Microsoft 솔루션 아키텍처와 도입 가이드. **폴더(마크다운)** 또는 **외부 URL** 방식으로 등록 |
+| 🧪 **실습 워크샵** | 핸즈온 워크샵. **GitHub 저장소 URL** 또는 **폴더(마크다운)** 방식으로 등록 |
+| ✨ **신규 기능** | Azure 서비스 업데이트를 매일 자동 수집·한국어 번역. 날짜별로 보관되어 검색됩니다 |
+
+- 좌측 **카테고리**(전체 + 분류) / 우측 **가로형 카드** 2단 레이아웃, 한 페이지 3개 + 하단 페이지네이션
+- 상단 **검색창**으로 솔루션·워크샵·신규 기능을 통합 검색 (약어집 지원: `MS→Microsoft`, `VNet→Virtual Network` 등)
 
 ## 프로젝트 구조
 
 ```text
-docs/                         # GitHub Pages 로 배포되는 정적 사이트
-├─ index.html                 # 메인 랜딩 페이지
-├─ solution.html              # 솔루션 상세 문서 뷰어 (마크다운 렌더링)
-├─ workshops.md               # 워크샵 매니페스트 (편집 시 자동 반영)
-├─ solutions/                 # 솔루션 설명 자료 (폴더 = 솔루션 1개)
-│  ├─ solutions.md            # 솔루션 카드 매니페스트
-│  ├─ _template/index.md      # 새 솔루션 작성용 템플릿
-│  └─ cloud-migration/        # 예시 솔루션 (index.md + images/)
-└─ assets/                    # CSS · JS · 이미지
+docs/                          # GitHub Pages 로 배포되는 정적 사이트
+├─ index.html                  # 메인 랜딩 페이지
+├─ solution.html               # 솔루션·워크샵 상세 문서 뷰어 (마크다운 렌더링)
+├─ solutions/                  # 솔루션 설명 자료
+│  ├─ solutions.md             # 솔루션 카드 매니페스트 (편집 시 자동 반영)
+│  ├─ _template/index.md       # 새 솔루션 작성용 템플릿
+│  └─ cloud-migration/         # 예시 솔루션 (index.md + images/)
+├─ workshops/                  # 실습 워크샵
+│  ├─ workshops.md             # 워크샵 매니페스트 (편집 시 자동 반영)
+│  └─ _template/index.md       # 폴더형 워크샵 작성용 템플릿
+├─ updates/                    # 신규 기능 업데이트 (자동 생성)
+│  ├─ updates.json             # 최신 스냅샷 (사이트 표시용)
+│  ├─ all.json                 # 누적 아카이브 (검색용)
+│  └─ daily/YYYY-MM-DD.json    # 날짜별 스냅샷
+└─ assets/
+   ├─ css/ · img/
+   └─ js/
+      ├─ main.js               # 목록·검색 렌더링
+      └─ search-synonyms.js    # 검색 약어집(동의어) — 여기만 편집하면 확장 검색 추가
 .github/workflows/
-└─ deploy-pages.yml           # main 브랜치 push 시 자동 배포
+├─ deploy-pages.yml            # main 브랜치 push 시 자동 배포
+└─ update-feed.yml             # 매일 신규 기능 업데이트 수집
 ```
 
 ## 콘텐츠 추가하기
 
-콘텐츠는 코드 수정 없이 **마크다운 파일 편집만으로** 사이트에 반영됩니다.
-
-### 워크샵 추가
-
-[docs/workshops.md](docs/workshops.md) 에 항목을 추가하면 메인 페이지 워크샵 섹션에 자동 반영됩니다. (카테고리별 최신 3개 노출, 나머지는 "더보기")
-
-```markdown
-## AI Apps Workshop
-
-### 새 워크샵 제목 (배지1 / 배지2)
-워크샵 한 줄 설명
-실습 자료: https://github.com/owner/repo
-```
+콘텐츠는 코드 수정 없이 **매니페스트(마크다운) 편집만으로** 사이트에 반영됩니다. 카테고리 기준은 솔루션·워크샵이 **동일**합니다: `클라우드 & 인프라` · `AI & 데이터` · `보안 & 거버넌스` · `모던 워크 & 협업` · `앱 혁신 & DevOps`.
 
 ### 솔루션 설명 자료 추가
 
-> 폴더와 `index.md` 만 만들면 목록에는 나타나지 않습니다. GitHub Pages는 정적 호스팅이라 폴더 내용을 실시간으로 조회할 수 없어, 목록은 [solutions.md](docs/solutions/solutions.md) 매니페스트를 읽어 렌더링합니다. 아래 **2단계**를 모두 거쳐야 카드가 표시됩니다.
+[docs/solutions/solutions.md](docs/solutions/solutions.md) 매니페스트에 카드 항목을 추가합니다. 두 가지 방식 중 하나를 사용합니다.
 
-1. **콘텐츠 작성** — `docs/solutions/<슬러그>/` 폴더를 만들고 [_template/index.md](docs/solutions/_template/index.md) 를 참고해 `index.md` 를 작성합니다. (이미지는 `docs/solutions/<슬러그>/images/` 에 넣고 `![설명](images/파일명.png)` 으로 참조)
-2. **목록 등록** — [docs/solutions/solutions.md](docs/solutions/solutions.md) 맨 아래에 카드 항목을 추가합니다.
+**방식 A — 폴더 업로드 (마크다운 직접 작성)**
+
+1. `docs/solutions/<슬러그>/` 폴더를 만들고 [_template/index.md](docs/solutions/_template/index.md) 를 참고해 `index.md` 를 작성합니다. (이미지는 `docs/solutions/<슬러그>/images/` 에 넣고 `![설명](images/파일명.png)` 으로 참조)
+2. 매니페스트에 `slug` 항목을 추가합니다.
 
 ```markdown
 ### 카드 제목
-slug: 폴더-이름
-tag: Azure
-icon: cloud
+slug: 폴더-이름                # 폴더 이름과 정확히 일치. 클릭 시 solution.html?slug=<슬러그>
+category: AI & 데이터           # 좌측 카테고리 (없으면 tag 사용)
+tag: AI                        # 카드 상단 배지
+icon: ai                       # cloud | ai | security | data | modernwork | app
+date: 2026-08-20 14:30         # 업데이트 일시(시간까지). 가장 최근 항목에 '최신' 배지
+workshop: 워크샵 이름 | https://github.com/owner/repo   # (선택) 관련 워크샵, 최대 2개
 카드에 보일 요약 한 문장.
 ```
 
-- `slug` 는 폴더 이름과 **정확히 일치**해야 합니다. 카드 클릭 시 `solution.html?slug=<슬러그>` 상세 페이지로 연결됩니다.
-- `icon` 은 `cloud | ai | security | data | modernwork | app` 중 하나입니다.
-- 매니페스트를 편집하고 커밋하면 메인 페이지 "솔루션 설명 자료" 섹션에 자동으로 반영됩니다.
+**방식 B — URL 추가 (외부 링크 연결)**
+
+폴더/파일 없이 외부에 게시된 자료를 바로 연결합니다. `slug` 대신 `url` 을 사용합니다.
+
+```markdown
+### 카드 제목
+url: https://example.com/자료.html     # 클릭 시 새 탭으로 열림
+category: AI & 데이터
+tag: AI
+icon: ai
+date: 2026-08-20 09:30
+카드에 보일 요약 한 문장.
+```
+
+> `slug` 또는 `url` 중 하나가 있어야 카드가 표시됩니다. `date` 는 시간까지 기록하되 카드에는 날짜만 표시되며, 전체에서 가장 최근 항목에 `최신` 배지가 붙습니다.
+
+### 실습 워크샵 추가
+
+[docs/workshops/workshops.md](docs/workshops/workshops.md) 매니페스트에 항목을 추가합니다. `## 카테고리` 아래에 워크샵을 나열하며, 솔루션과 동일한 카테고리 이름을 사용하세요.
+
+**방식 A — URL 추가 (GitHub 저장소 링크)**
+
+```markdown
+## AI & 데이터
+
+### 새 워크샵 제목 (배지1 / 배지2)
+워크샵 한 줄 설명
+https://github.com/owner/repo
+라벨 : https://github.com/owner/other-repo    # (선택) 레포가 여러 개면 라벨이 링크 텍스트
+```
+
+- 설명을 비워 두면 GitHub 저장소 설명을 자동으로 가져옵니다.
+
+**방식 B — 폴더 업로드 (마크다운 직접 작성)**
+
+1. `docs/workshops/<슬러그>/` 폴더를 만들고 [_template/index.md](docs/workshops/_template/index.md) 를 참고해 `index.md` 를 작성합니다.
+2. 워크샵 항목에 `folder` 줄을 추가합니다. (GitHub 링크를 함께 두면 상세 페이지 링크 + 레포 링크가 모두 표시됩니다.)
+
+```markdown
+### 폴더형 워크샵 제목 (배지)
+folder: 폴더-이름              # 클릭 시 solution.html?base=workshops&slug=<슬러그>
+워크샵 한 줄 설명
+```
+
+### 신규 기능 업데이트 (자동)
+
+`docs/updates/` 는 [update-feed.yml](.github/workflows/update-feed.yml) 워크플로가 **매일 자동 생성**합니다. 최신 스냅샷(`updates.json`), 날짜별 스냅샷(`daily/`), 누적 아카이브(`all.json`)를 만들며, 검색은 `all.json` 을 사용합니다. 수동 편집은 필요하지 않습니다.
 
 ## 로컬에서 미리보기
 
 ```powershell
+# 방법 1: 라이브 리로드 (파일 저장 시 자동 새로고침)
+npx --yes live-server docs --port=5500
+
+# 방법 2: 파이썬 기본 서버
 cd docs
 python -m http.server 8080
-# 브라우저에서 http://localhost:8080 접속
 ```
+
 
 ## 배포
 

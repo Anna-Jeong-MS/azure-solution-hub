@@ -49,7 +49,6 @@
         <a href="#workshops">워크샵</a>
         <a href="#features">신규 기능</a>
         <a href="#resources">리소스</a>
-        <a class="nav-cta" href="#contact">문의하기</a>
       </nav>
     </div>
   </header>
@@ -66,12 +65,15 @@
         </p>
         <div class="hero-actions">
           <a class="btn btn-primary" href="#solutions">솔루션 살펴보기</a>
-          <a class="btn btn-ghost" href="#workshops">워크샵 신청하기</a>
         </div>
       </div>
     </section>
 
     <!-- Stats -->
+    <!--
+      개수(통계) 섹션 — 콘텐츠가 충분히 쌓이면 다시 노출할 예정이라 임시로 숨김 처리했습니다.
+      다시 표시하려면 이 주석 블록의 시작(바로 위 줄)과 끝(아래 stats 섹션 뒤) 표시만 제거하세요.
+
     <section class="stats">
       <div class="container">
         <div class="stat">
@@ -92,6 +94,34 @@
         </div>
       </div>
     </section>
+    -->
+
+    <!-- 검색 바 (배너 하단 · 솔루션 설명 자료 위) -->
+    <div class="search-bar-wrap">
+      <div class="container">
+        <form class="site-search" id="siteSearch" role="search">
+          <span class="search-ico" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9"><circle cx="11" cy="11" r="7"/><path d="M21 21l-4.3-4.3"/></svg>
+          </span>
+          <input type="search" id="searchInput" placeholder="솔루션 · 워크샵 · 신규 기능 검색…" aria-label="사이트 검색" autocomplete="off" />
+          <button type="submit" class="search-go">검색</button>
+        </form>
+      </div>
+    </div>
+
+    <!-- 검색 결과 화면 (검색 시에만 표시) -->
+    <div class="block search-results" id="searchResults" hidden>
+      <div class="container">
+        <div class="search-results-head">
+          <h2 id="searchResultsTitle">검색 결과</h2>
+          <button type="button" class="search-close" id="searchClose">✕ 검색 닫기</button>
+        </div>
+        <div class="solutions-layout">
+          <aside class="solutions-nav" id="searchNav" aria-label="검색 결과 분류"></aside>
+          <div class="solutions-main" id="searchGrid" aria-live="polite"></div>
+        </div>
+      </div>
+    </div>
 
     <!-- Solutions -->
     <section class="block" id="solutions">
@@ -104,10 +134,14 @@
 
         <!--
           아래 그리드는 solutions/solutions.md 매니페스트를 기반으로 JavaScript가
-          자동으로 채웁니다. 각 카드는 solution.html?slug=<slug> 상세 페이지로 연결됩니다.
+          자동으로 채웁니다. 왼쪽은 카테고리 목록, 오른쪽은 카테고리별 카드입니다.
+          각 카드는 solution.html?slug=<slug> 상세 페이지(또는 외부 URL)로 연결됩니다.
         -->
-        <div class="grid grid-3" id="solutionGrid" data-source="solutions/solutions.md" aria-live="polite">
-          <div class="workshop-loading">솔루션 목록을 불러오는 중입니다…</div>
+        <div class="solutions-layout">
+          <aside class="solutions-nav" id="solutionNav" aria-label="솔루션 카테고리"></aside>
+          <div class="solutions-main" id="solutionGrid" data-source="solutions/solutions.md" aria-live="polite">
+            <div class="workshop-loading">솔루션 목록을 불러오는 중입니다…</div>
+          </div>
         </div>
       </div>
     </section>
@@ -123,10 +157,13 @@
 
         <!--
           아래 컨테이너는 workshops.md 파일의 카테고리·워크샵 목록을 기반으로
-          JavaScript가 자동으로 채웁니다. data-source 속성으로 목록 파일을 지정합니다.
+          JavaScript가 자동으로 채웁니다. 왼쪽은 카테고리, 오른쪽은 카드입니다.
         -->
-        <div id="workshopContainer" data-source="workshops.md" aria-live="polite">
-          <div class="workshop-loading">워크샵 목록을 불러오는 중입니다…</div>
+        <div class="solutions-layout">
+          <aside class="solutions-nav" id="workshopNav" aria-label="워크샵 카테고리"></aside>
+          <div class="solutions-main" id="workshopContainer" data-source="workshops/workshops.md" aria-live="polite">
+            <div class="workshop-loading">워크샵 목록을 불러오는 중입니다…</div>
+          </div>
         </div>
       </div>
     </section>
@@ -144,7 +181,7 @@
           아래 목록은 GitHub Actions가 매일 Azure 서비스 업데이트 RSS를 수집·번역해
           생성하는 updates.json 을 기반으로 자동 렌더링됩니다.
         -->
-        <div class="feature-list" id="featureList" data-source="updates.json" aria-live="polite">
+        <div class="feature-list" id="featureList" data-source="updates/updates.json" aria-live="polite">
           <div class="workshop-loading">신규 기능 소식을 불러오는 중입니다…</div>
         </div>
         <p class="feed-note">Azure 서비스 업데이트 RSS를 매일 자동 수집해 한국어로 번역합니다. 번역은 자동 생성되므로 정확한 내용은 원문(릴리스 노트)을 확인하세요.</p>
@@ -200,28 +237,12 @@
       </div>
     </section>
 
-    <!-- CTA band -->
-    <section class="cta-band" id="contact">
-      <h2>함께 성장할 준비가 되셨나요?</h2>
-      <p>Microsoft Korea 팀이 여러분의 클라우드와 AI 여정을 지원합니다. 지금 문의하세요.</p>
-      <a class="btn btn-primary" href="mailto:solutionhub@microsoft.com">문의하기</a>
-    </section>
   </main>
 
   <!-- Footer -->
   <footer class="site-footer">
     <div class="container">
       <div class="footer-grid">
-        <div class="footer-about">
-          <a class="brand" href="#top" style="color:#fff;">
-            <span class="logo" aria-hidden="true"><span></span><span></span><span></span><span></span></span>
-            <span class="brand-text">
-              <span class="t1" style="color:#fff;">Microsoft Korea</span>
-              <span class="t2" style="color:#a19f9d;">Solution Hub</span>
-            </span>
-          </a>
-          <p>솔루션 설명 자료, 실습 워크샵, 최신 기능 업데이트를 한곳에서 제공하는 Microsoft Korea 공식 허브입니다.</p>
-        </div>
         <div>
           <h4>콘텐츠</h4>
           <ul>
@@ -240,26 +261,14 @@
             <li><a href="https://github.com/" target="_blank" rel="noopener">GitHub</a></li>
           </ul>
         </div>
-        <div>
-          <h4>지원</h4>
-          <ul>
-            <li><a href="#contact">문의하기</a></li>
-            <li><a href="https://support.microsoft.com/ko-kr" target="_blank" rel="noopener">지원 센터</a></li>
-            <li><a href="https://www.microsoft.com/ko-kr/trust-center" target="_blank" rel="noopener">신뢰 센터</a></li>
-          </ul>
-        </div>
       </div>
       <div class="footer-bottom">
         <span>© <span id="year"></span> Microsoft Corporation. All rights reserved.</span>
-        <span>
-          <a href="https://www.microsoft.com/ko-kr/privacy/privacystatement" target="_blank" rel="noopener">개인정보처리방침</a>
-          <a href="https://www.microsoft.com/ko-kr/legal/terms-of-use" target="_blank" rel="noopener">이용 약관</a>
-          <a href="https://www.microsoft.com/ko-kr/trademarks" target="_blank" rel="noopener">상표</a>
-        </span>
       </div>
     </div>
   </footer>
 
+  <script src="assets/js/search-synonyms.js?v=20260702"></script>
   <script src="assets/js/main.js?v=20260702"></script>
 </body>
 </html>

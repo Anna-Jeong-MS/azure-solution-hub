@@ -7,7 +7,25 @@
   if (yearEl) yearEl.textContent = new Date().getFullYear();
   if (!doc) return;
 
-  const rootDir = doc.getAttribute('data-base') || 'solutions';
+  const rootDir = (
+    new URLSearchParams(location.search).get('base') ||
+    doc.getAttribute('data-base') ||
+    'solutions'
+  ).replace(/[^A-Za-z0-9_-]/g, '');
+
+  // 워크샵 문서일 때 브레드크럼/뒤로가기 라벨을 맞춰줍니다.
+  if (rootDir === 'workshops') {
+    const midLink = document.querySelector('.breadcrumb a[href="index.html#solutions"]');
+    if (midLink) {
+      midLink.textContent = '실습 워크샵';
+      midLink.setAttribute('href', 'index.html#workshops');
+    }
+    const backLink = document.querySelector('.doc-back a');
+    if (backLink) {
+      backLink.textContent = '← 워크샵 목록으로 돌아가기';
+      backLink.setAttribute('href', 'index.html#workshops');
+    }
+  }
 
   // slug 정규화: 경로 탈출(../) 등 방지, 허용 문자만 남김
   const raw = new URLSearchParams(location.search).get('slug') || '';

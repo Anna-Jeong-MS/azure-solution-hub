@@ -3,7 +3,9 @@
   ============================================================
   이 파일을 편집하면 메인 페이지의 "실습 워크샵" 섹션이 자동으로 갱신됩니다.
 
-  형식
+  워크샵은 두 가지 방식으로 추가할 수 있습니다.
+
+  [방식 A] URL 추가 방식 (GitHub 레포 링크)
   ------------------------------------------------------------
   ## 카테고리 이름                → 워크샵 그룹(섹션) 제목
   ### 워크샵 제목 (배지1 / 배지2)  → 개별 워크샵. 괄호 안 값은 배지로 표시됩니다.
@@ -12,11 +14,27 @@
   라벨 : https://github.com/...    → 여러 레포가 있을 때 라벨이 링크 텍스트가 됩니다.
 
   · 설명을 비워 두면 GitHub 레포의 설명을 자동으로 가져옵니다.
+
+  [방식 B] 폴더 업로드 방식 (Markdown 직접 작성)
+  ------------------------------------------------------------
+  1) workshops/<슬러그>/ 폴더를 만들고 그 안에 index.md 를 작성합니다.
+     (이미지는 workshops/<슬러그>/images/ 에 넣고 index.md 에서
+      ![설명](images/파일명.png) 형태로 참조합니다. _template/ 폴더 참고)
+  2) 아래처럼 워크샵 항목에 folder 줄을 추가합니다.
+
+  ### 워크샵 제목 (배지)
+  folder: 폴더-이름               → '워크샵 바로가기' 클릭 시
+                                    solution.html?base=workshops&slug=<폴더-이름> 상세 페이지가 열립니다.
+  설명 문장                       → 카드 본문 설명
+  (folder 와 GitHub 링크를 함께 두면, 상세 페이지 링크 + 레포 링크가 모두 표시됩니다.)
+
+  공통
+  ------------------------------------------------------------
   · '#' 로 시작하거나 '<!-- -->' 로 감싼 줄은 주석으로 무시됩니다.
   ============================================================
 -->
 
-## Infra Workshop
+## 클라우드 & 인프라
 
 ### Azure Basic Workshop (L200 / 4시간)
 이론 세션: Compute, Network, Storage, Security 서비스 소개. 실습 세션: 로드 밸런서, 가상 머신, SQL 데이터베이스(프라이빗 엔드포인트)를 활용한 웹 애플리케이션 구성.
@@ -31,7 +49,7 @@ https://github.com/Azure-Samples/AzureLandingZoneWorkshop
 https://github.com/Azure-Samples/AKSBasicWorkshop
 
 
-## Data Workshop
+## AI & 데이터
 
 ### Microsoft Fabric Camp
 Microsoft Fabric 전반을 하루 안에 익힐 수 있도록 구성된 핸즈온 워크샵입니다. 데이터 수집·변환, Lakehouse, Warehouse, 보고서 시각화까지 Fabric의 엔드-투-엔드 기능을 실습 중심으로 경험하며, 단계별 랩 지침을 따라 데이터 파이프라인 구축부터 분석·리포트 생성까지 학습할 수 있습니다.
@@ -42,7 +60,7 @@ https://github.com/jiyongseong/microsoft-fabric-camp/tree/main/microsoft-fabric-
 https://github.com/yujeny/CosmosBulkDemo
 
 
-## AI Apps Workshop
+## 앱 혁신 & DevOps
 
 ### Azure AI Foundry Workshop (Portal / L200 / 4시간)
 Azure AI Foundry를 기반으로 데이터 업로드, 임베딩, 챗봇 생성 등 핵심 기능을 직접 실습하며 AI 에이전트 개발 전 과정을 경험합니다. Semantic Kernel과 AutoGen을 활용한 다중 에이전트 연동, 모니터링, RAG 아키텍처 확장 등 실무 시나리오를 단계적으로 학습할 수 있습니다.
