@@ -1010,9 +1010,10 @@ section.block.alt {
 }
 .footer-grid {
   display: grid;
-  grid-template-columns: 1.4fr 1fr 1fr 1fr;
-  gap: 32px;
+  grid-template-columns: 1fr auto auto 1fr;
+  gap: 32px 56px;
   margin-bottom: 40px;
+  align-items: start;
 }
 .footer-grid h4 {
   color: #fff;
@@ -1070,6 +1071,7 @@ section.block.alt {
 @media (max-width: 900px) {
   .grid-3 { grid-template-columns: 1fr 1fr; }
   .footer-grid { grid-template-columns: 1fr 1fr; }
+  .footer-about { grid-column: 1 / -1; }
   .stats .container { grid-template-columns: 1fr 1fr; }
   .solutions-layout { grid-template-columns: 1fr; }
   .solutions-nav {
