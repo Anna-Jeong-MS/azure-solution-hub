@@ -426,6 +426,13 @@ function setRoundedStat(id, count) {
       // 다른 주석 줄 무시
       if (line.startsWith('#')) return;
 
+      // 표준화 대상 표시(빌드/에이전트용 메타). 렌더링에는 영향 없음.
+      const inc = line.match(/^included\s*:\s*(.+)$/i);
+      if (inc) {
+        if (ws) ws.included = /^(true|yes|1)$/i.test(inc[1].trim());
+        return;
+      }
+
       // 폴더 방식: 'folder: <슬러그>' → workshops/<슬러그>/index.md 상세 페이지 연결
       const fm = line.match(/^folder\s*:\s*([A-Za-z0-9_-]+)\s*$/i);
       if (fm) {
@@ -503,7 +510,7 @@ function setRoundedStat(id, count) {
       '<div class="workshop-links">' +
       ws.links
         .map((l) => {
-          const label = l.label || `${l.owner}/${l.repo}`;
+          const label = l.label || l.repo;
           return `<a href="${escapeHtml(l.url)}" target="_blank" rel="noopener">${escapeHtml(label)} <span class="arrow">→</span></a>`;
         })
         .join('') +
@@ -514,12 +521,12 @@ function setRoundedStat(id, count) {
   // 폴더 방식이면 내부 상세 페이지 링크를, 아니면 기존 레포 링크를 렌더링
   function renderActions(ws) {
     if (ws.folder) {
-      const detail = `<a class="card-link" href="solution.html?base=workshops&slug=${encodeURIComponent(ws.folder)}">워크샵 바로가기 <span class="arrow">→</span></a>`;
+      const detail = `<a class="card-link" href="workshop.html?slug=${encodeURIComponent(ws.folder)}">워크샵 바로가기 <span class="arrow">→</span></a>`;
       const repos = ws.links.length
         ? '<div class="workshop-links">' +
           ws.links
             .map((l) => {
-              const label = l.label || `${l.owner}/${l.repo}`;
+              const label = l.label || l.repo;
               return `<a href="${escapeHtml(l.url)}" target="_blank" rel="noopener">${escapeHtml(label)} <span class="arrow">→</span></a>`;
             })
             .join('') +
@@ -542,12 +549,12 @@ function setRoundedStat(id, count) {
       `<div class="srow-workshops"><span class="sw-label">실습 레포</span>${links
         .map(
           (l) =>
-            `<a class="sw-link" href="${escapeHtml(l.url)}" target="_blank" rel="noopener">${escapeHtml(l.label || `${l.owner}/${l.repo}`)} <span class="arrow">↗</span></a>`
+            `<a class="sw-link" href="${escapeHtml(l.url)}" target="_blank" rel="noopener"><span class="sw-name">${escapeHtml(l.label || l.repo)}</span> <span class="arrow">↗</span></a>`
         )
         .join('')}</div>`;
 
     if (ws.folder) {
-      const detail = primary(`solution.html?base=workshops&slug=${encodeURIComponent(ws.folder)}`, '워크샵 바로가기', true);
+      const detail = primary(`workshop.html?slug=${encodeURIComponent(ws.folder)}`, '워크샵 바로가기', true);
       return detail + (ws.links.length ? repoList(ws.links) : '');
     }
     if (ws.links.length === 1 && !ws.links[0].label) {
@@ -806,10 +813,11 @@ function setRoundedStat(id, count) {
         return;
       }
       if (line.startsWith('#')) return;
+      if (/^included\s*:/i.test(line)) return;
       const fm = line.match(/^folder\s*:\s*([A-Za-z0-9_-]+)\s*$/i);
       if (fm) {
         if (!cur) cur = { type: 'workshop', title: cat || '워크샵', summary: '', url: '', extra: cat, date: '', external: false };
-        cur.url = `solution.html?base=workshops&slug=${encodeURIComponent(fm[1])}`;
+        cur.url = `workshop.html?slug=${encodeURIComponent(fm[1])}`;
         cur.external = false;
         return;
       }

@@ -24,9 +24,24 @@
 
   ### 워크샵 제목 (배지)
   folder: 폴더-이름               → '워크샵 바로가기' 클릭 시
-                                    solution.html?base=workshops&slug=<폴더-이름> 상세 페이지가 열립니다.
+                                    workshop.html?slug=<폴더-이름> 단계형 뷰어가 열립니다.
   설명 문장                       → 카드 본문 설명
   (folder 와 GitHub 링크를 함께 두면, 상세 페이지 링크 + 레포 링크가 모두 표시됩니다.)
+
+  워크샵 매니페스트(index.md) 형식
+  ------------------------------------------------------------
+  단계형 뷰어는 '## 단계 제목' 을 왼쪽 단계 네비로 만듭니다.
+  각 단계에 'source: <raw README URL>' 을 적으면 원본 저장소 콘텐츠를
+  실시간으로 불러와 렌더링합니다(이미지 경로 자동 보정). 자세한 형식은
+  workshops/_template/index.md 를 참고하세요.
+
+  [표준화] included: true — 자동 표준화 대상 표시
+  ------------------------------------------------------------
+  워크샵 항목에 'included: true' 를 추가하면 그 워크샵을 사이트
+  공통 단계형 포맷으로 표준화한다는 표시입니다.
+  · GitHub 레포 링크와 함께 적어 두면, 'workshop-standardization' 스킬이
+    레포의 단계 폴더를 읽어 workshops/<슬러그>/index.md 를 생성하고
+    'folder: <슬러그>' 를 연결합니다. (메인 렌더링에는 영향 없음)
 
   공통
   ------------------------------------------------------------
@@ -37,10 +52,14 @@
 ## 클라우드 & 인프라
 
 ### Azure Basic Workshop (L200 / 4시간)
+included: true
+folder: azure-basic-workshop
 이론 세션: Compute, Network, Storage, Security 서비스 소개. 실습 세션: 로드 밸런서, 가상 머신, SQL 데이터베이스(프라이빗 엔드포인트)를 활용한 웹 애플리케이션 구성.
-https://github.com/Azure-Samples/AzureBasicWorkshop
+https://github.com/Anna-Jeong-MS/AzureBasicWorkshop
 
 ### Azure Landing Zone Workshop (L200~300 / 4시간)
+included: true
+folder: azure-landing-zone-workshop
 이론 세션: Azure Landing Zone 소개. 실습 세션: Hub-Spoke 기반의 Application Gateway(WAF v2) – Firewall – VM 기반 랜딩존 구성.
 https://github.com/Azure-Samples/AzureLandingZoneWorkshop
 

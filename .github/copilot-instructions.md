@@ -45,6 +45,10 @@
 
 솔루션 URL 형식은 `solution.html?slug=<slug>`이며, 솔루션 목록은 `docs/solutions/solutions.md` 매니페스트에서 관리됩니다. 새 솔루션을 추가하면 sitemap.xml과 llms.txt에도 해당 URL을 반영합니다.
 
+## 워크샵 표준화 (included: true)
+
+실습 워크샵은 `docs/workshops/workshops.md` 매니페스트에서 관리하며, 단계형 뷰어(`workshop.html?slug=<slug>`)로 표시됩니다. 워크샵 항목에 **`included: true`** 마커가 있으면, 해당 워크샵을 사이트 공통 단계형 포맷으로 **표준화**해야 합니다. 표준화 절차(레포 단계 폴더 → `docs/workshops/<slug>/index.md` 매니페스트 생성 → `folder:` 연결 → SEO 갱신)는 `.github/skills/workshop-standardization/SKILL.md` 스킬을 따릅니다. 워크샵 매니페스트 형식의 기준은 `docs/workshops/_template/index.md` 입니다.
+
 ## 배포
 
 `feat/ontology-solution` 브랜치의 `docs/` 변경을 push하면 GitHub Pages(레거시 브랜치 배포, 소스 `/docs`)가 자동 재배포합니다.
