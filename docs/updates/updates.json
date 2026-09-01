@@ -1,52 +1,52 @@
 {
-  "generatedAt": "2026-09-01T00:23:35.172Z",
+  "generatedAt": "2026-09-01T23:01:40.963Z",
   "source": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
   "translated": false,
   "items": [
     {
-      "title": "Public Preview: Per-disk resiliency for Azure VMs",
-      "titleKo": "Public Preview: Per-disk resiliency for Azure VMs",
-      "summaryKo": "Azure automatically recovers a VM when it loses access to an attached managed disk for an extended period. The VM is shut down and powered back on after disk connectivity is restored, with no customer action required. This remains the default behavior.Now",
-      "status": "In preview",
-      "category": "Storage",
-      "link": "https://azure.microsoft.com/updates?id=569711",
-      "date": "2026-08-31T23:11:39.000Z"
-    },
-    {
-      "title": "Public Preview: Azure Multicloud Interconnect",
-      "titleKo": "Public Preview: Azure Multicloud Interconnect",
-      "summaryKo": "Announcing the public preview of Azure Multicloud Interconnect, a managed service that provides private connectivity between Azure and supported cloud providers, with Amazon Web Services (AWS) available as the first supported provider in preview. As organ",
-      "status": "In preview",
-      "category": "Hybrid + multicloud",
-      "link": "https://azure.microsoft.com/updates?id=570364",
-      "date": "2026-08-31T18:36:12.000Z"
-    },
-    {
-      "title": "Generally Available: Workload identity support for Azure Files CSI driver (SMB) in Azure",
-      "titleKo": "Generally Available: Workload identity support for Azure Files CSI driver (SMB) in Azure",
-      "summaryKo": "The Azure Files Container Storage Interface (CSI) driver in Azure Kubernetes Service (AKS) now supports workload identity for pod-level authentication to SMB file shares. Previously, managed identity support in AKS enabled workloads to mount Azure Files w",
+      "title": "Generally Available: Purchase order mapping available in Microsoft Marketplace",
+      "titleKo": "Generally Available: Purchase order mapping available in Microsoft Marketplace",
+      "summaryKo": "Align Microsoft Marketplace purchases to your business's accounting needs. Purchase order mapping helps allocate your Microsoft invoice, including Marketplace purchases, making it easier to reconcile your organization's cloud and AI spend. Get supplementa",
       "status": "Launched",
-      "category": "Storage",
-      "link": "https://azure.microsoft.com/updates?id=570120",
-      "date": "2026-08-28T20:25:22.000Z"
+      "category": "Feature",
+      "link": "https://azure.microsoft.com/updates?id=569700",
+      "date": "2026-09-01T18:40:59.000Z"
     },
     {
-      "title": "Generally Available: Azure VM Image Builder in sovereign and air-gapped clouds",
-      "titleKo": "Generally Available: Azure VM Image Builder in sovereign and air-gapped clouds",
-      "summaryKo": "Overview:Azure VM Image Builder is now generally available in Azure Government, China North 3, Azure Government Secret, and Azure Government Top Secret.You can now use the same managed image-building service across your sovereign and air-gapped environmen",
-      "status": "Launched",
-      "category": "Compute",
-      "link": "https://azure.microsoft.com/updates?id=570105",
-      "date": "2026-08-28T15:45:32.000Z"
-    },
-    {
-      "title": "Generally Available: Azure Bastion shareable link expiration",
-      "titleKo": "Generally Available: Azure Bastion shareable link expiration",
-      "summaryKo": "Azure Bastion shareable link expiration is now generally available. When creating a shareable link, administrators can specify the date and time when the link should expire. After the configured expiration time, the link can no longer be used to connect t",
+      "title": "Generally Available: Azure Firewall auto-learn SNAT routes",
+      "titleKo": "Generally Available: Azure Firewall auto-learn SNAT routes",
+      "summaryKo": "Azure Firewall’s auto-learn SNAT routes is now generally available, automatically learning registered and private destination prefixes periodically and applying them as No-SNAT ranges to preserve original source IPs and simplify SNAT management.Learn more",
       "status": "Launched",
       "category": "Networking",
-      "link": "https://azure.microsoft.com/updates?id=570020",
-      "date": "2026-08-26T16:57:56.000Z"
+      "link": "https://azure.microsoft.com/updates?id=570474",
+      "date": "2026-09-01T17:10:38.000Z"
+    },
+    {
+      "title": "Generally Available: Azure Copilot Observability Agent supports Basic and Auxiliary table plans",
+      "titleKo": "Generally Available: Azure Copilot Observability Agent supports Basic and Auxiliary table plans",
+      "summaryKo": "Azure Copilot Observability Agent, an AI-powered operational companion in Azure Monitor, is now covering Log Analytics data in Basic and Auxiliary table plans during interactive analysis and deep investigations. Teams can move high-volume telemetry - incl",
+      "status": "Launched",
+      "category": "DevOps",
+      "link": "https://azure.microsoft.com/updates?id=570250",
+      "date": "2026-09-01T16:31:14.000Z"
+    },
+    {
+      "title": "Generally Available: Azure Monitor Auxiliary Logs Plan in Azure Government and China regions",
+      "titleKo": "Generally Available: Azure Monitor Auxiliary Logs Plan in Azure Government and China regions",
+      "summaryKo": "The Auxiliary table plan in Azure Monitor Logs is a cost-effective option for ingesting and retaining high-volume, verbose logs used for compliance and auditing. Auxiliary Logs is now generally available in the sovereign clouds: Azure Government (Fairfax)",
+      "status": "Launched",
+      "category": "DevOps",
+      "link": "https://azure.microsoft.com/updates?id=569899",
+      "date": "2026-09-01T16:29:24.000Z"
+    },
+    {
+      "title": "Generally Available: Azure Monitor Auxiliary Logs Plan support for Azure tables and plan switching",
+      "titleKo": "Generally Available: Azure Monitor Auxiliary Logs Plan support for Azure tables and plan switching",
+      "summaryKo": "The Auxiliary table plan in Azure Monitor Logs gives you a cost-effective way to ingest and retain high-volume, verbose logs that you keep for compliance and auditing but rarely query. Two highly requested capabilities are now generally available.Auxiliar",
+      "status": "Launched",
+      "category": "DevOps",
+      "link": "https://azure.microsoft.com/updates?id=569904",
+      "date": "2026-09-01T16:25:33.000Z"
     }
   ]
 }
