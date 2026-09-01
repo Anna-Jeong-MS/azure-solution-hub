@@ -1,8 +1,26 @@
 {
-  "generatedAt": "2026-08-30T23:12:16.958Z",
+  "generatedAt": "2026-09-01T00:23:35.174Z",
   "source": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
-  "count": 23,
+  "count": 25,
   "items": [
+    {
+      "title": "Public Preview: Per-disk resiliency for Azure VMs",
+      "titleKo": "Public Preview: Per-disk resiliency for Azure VMs",
+      "summaryKo": "Azure automatically recovers a VM when it loses access to an attached managed disk for an extended period. The VM is shut down and powered back on after disk connectivity is restored, with no customer action required. This remains the default behavior.Now",
+      "status": "In preview",
+      "category": "Storage",
+      "link": "https://azure.microsoft.com/updates?id=569711",
+      "date": "2026-08-31T23:11:39.000Z"
+    },
+    {
+      "title": "Public Preview: Azure Multicloud Interconnect",
+      "titleKo": "Public Preview: Azure Multicloud Interconnect",
+      "summaryKo": "Announcing the public preview of Azure Multicloud Interconnect, a managed service that provides private connectivity between Azure and supported cloud providers, with Amazon Web Services (AWS) available as the first supported provider in preview. As organ",
+      "status": "In preview",
+      "category": "Hybrid + multicloud",
+      "link": "https://azure.microsoft.com/updates?id=570364",
+      "date": "2026-08-31T18:36:12.000Z"
+    },
     {
       "title": "Generally Available: Workload identity support for Azure Files CSI driver (SMB) in Azure",
       "titleKo": "Generally Available: Workload identity support for Azure Files CSI driver (SMB) in Azure",
