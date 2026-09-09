@@ -1,8 +1,17 @@
 {
-  "generatedAt": "2026-09-08T23:12:17.577Z",
+  "generatedAt": "2026-09-09T22:56:23.747Z",
   "source": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
-  "count": 38,
+  "count": 39,
   "items": [
+    {
+      "title": "Generally Available: Azure Ephemeral OS Disk with full caching for VM/VMSS",
+      "titleKo": "Generally Available: Azure Ephemeral OS Disk with full caching for VM/VMSS",
+      "summaryKo": "Azure Ephemeral OS Disk with full caching is now generally available for new virtual machines and Virtual Machine Scale Sets. The capability caches the complete OS image on a VM’s local storage, eliminating remote-storage reads after caching finishes. Thi",
+      "status": "Launched",
+      "category": "Compute",
+      "link": "https://azure.microsoft.com/updates?id=570551",
+      "date": "2026-09-09T21:24:37.000Z"
+    },
     {
       "title": "Generally Available: Playwright Workspaces in Australia East, Japan East, and Switzerland North",
       "titleKo": "Generally Available: Playwright Workspaces in Australia East, Japan East, and Switzerland North",
