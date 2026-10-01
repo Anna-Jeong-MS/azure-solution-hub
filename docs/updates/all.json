@@ -1,8 +1,53 @@
 {
-  "generatedAt": "2026-09-30T00:04:30.076Z",
+  "generatedAt": "2026-10-01T00:21:47.234Z",
   "source": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
-  "count": 76,
+  "count": 81,
   "items": [
+    {
+      "title": "Public Preview: SQL performance monitoring for SQL Server on Azure Virtual Machines",
+      "titleKo": "Public Preview: SQL performance monitoring for SQL Server on Azure Virtual Machines",
+      "summaryKo": "The public preview of Microsoft-managed performance monitoring for SQL Server on Azure Virtual Machines is now available. You can now monitor SQL Server on Azure Virtual Machines without building custom collection scripts or correlating telemetry across d",
+      "status": "In preview",
+      "category": "Compute",
+      "link": "https://azure.microsoft.com/updates?id=571894",
+      "date": "2026-09-30T21:13:13.000Z"
+    },
+    {
+      "title": "Retirement: NVv3-series Azure Virtual Machines",
+      "titleKo": "Retirement: NVv3-series Azure Virtual Machines",
+      "summaryKo": "On September 30, 2026, Microsoft Azure retired the Standard_NV12s_v3, Standard_NV12hs_v3, Standard_NV24s_v3, Standard_NV24ms_v3, Standard_NV32ms_v3, and Standard_NV48s_v3 virtual machines (VMs) in the NVv3-series VMs.Any remaining NVv3-series VMs will be",
+      "status": "Retirements",
+      "category": "Compute",
+      "link": "https://azure.microsoft.com/updates?id=573414",
+      "date": "2026-09-30T18:26:47.000Z"
+    },
+    {
+      "title": "Retirement: NVv4-series Azure Virtual Machines",
+      "titleKo": "Retirement: NVv4-series Azure Virtual Machines",
+      "summaryKo": "On September 30, 2026, Microsoft Azure retired the Standard_NV4as_v4, Standard_NV4ahs_v4, Standard_NV8as_v4, Standard_NV8ahs_v4, Standard_NV16as_v4, Standard_NV16ahs_v4, Standard_NV32as_v4, and Standard_NV32ahs_v4 virtual machines (VMs) in the NVv4-series",
+      "status": "Retirements",
+      "category": "Compute",
+      "link": "https://azure.microsoft.com/updates?id=573415",
+      "date": "2026-09-30T18:24:01.000Z"
+    },
+    {
+      "title": "Public Preview: Ubuntu 26.04 support in AKS",
+      "titleKo": "Public Preview: Ubuntu 26.04 support in AKS",
+      "summaryKo": "Teams running Ubuntu node pools on AKS need to stay current with Ubuntu LTS releases, but each OS transition can introduce package footprint, security, and compatibility concerns. Ubuntu 26.04 support introduces the Ubuntu2604 OS SKU using Ubuntu Minimal",
+      "status": "In preview",
+      "category": "Compute",
+      "link": "https://azure.microsoft.com/updates?id=573214",
+      "date": "2026-09-30T17:11:11.000Z"
+    },
+    {
+      "title": "Announcing: Azure canvases for GitHub Copilot",
+      "titleKo": "Announcing: Azure canvases for GitHub Copilot",
+      "summaryKo": "Discover Azure canvases for GitHub Copilot, interactive shared workspaces that bring Azure tools, dashboards, and guided workflows directly alongside your Copilot conversations. Explore Azure resources, analyze costs, and build hosted skills while keeping",
+      "status": "",
+      "category": "Management and governance",
+      "link": "https://azure.microsoft.com/updates?id=573385",
+      "date": "2026-09-30T17:09:51.000Z"
+    },
     {
       "title": "Retirement: Azure Functions v1 hosting model on Azure Container Apps",
       "titleKo": "Retirement: Azure Functions v1 hosting model on Azure Container Apps",
