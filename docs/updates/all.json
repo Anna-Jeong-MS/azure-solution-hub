@@ -1,8 +1,53 @@
 {
-  "generatedAt": "2026-10-04T23:50:13.192Z",
+  "generatedAt": "2026-10-06T01:39:53.856Z",
   "source": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
-  "count": 83,
+  "count": 88,
   "items": [
+    {
+      "title": "Public Preview: Azure HorizonDB expands to additional regions",
+      "titleKo": "Public Preview: Azure HorizonDB expands to additional regions",
+      "summaryKo": "Azure HorizonDB is expanding to additional Azure regions, giving you greater flexibility to deploy PostgreSQL workloads closer to your applications and users.With expanded regional availability, you have more options when choosing where to deploy Azure Ho",
+      "status": "In preview",
+      "category": "Databases",
+      "link": "https://azure.microsoft.com/updates?id=572940",
+      "date": "2026-10-05T18:51:57.000Z"
+    },
+    {
+      "title": "Generally Available: SQL Server on Azure Virtual Machines in Azure Bleu",
+      "titleKo": "Generally Available: SQL Server on Azure Virtual Machines in Azure Bleu",
+      "summaryKo": "SQL Server on Azure Virtual Machines is now available in Azure Bleu, enabling you to deploy and manage SQL Server workloads in France's sovereign cloud environment while meeting data residency and sovereignty requirements. Learn more.",
+      "status": "Launched",
+      "category": "Compute",
+      "link": "https://azure.microsoft.com/updates?id=571499",
+      "date": "2026-10-05T18:12:09.000Z"
+    },
+    {
+      "title": "Announcing: Table discovery in OneLake Catalog search",
+      "titleKo": "Announcing: Table discovery in OneLake Catalog search",
+      "summaryKo": "Starting October 15, 2026, Search in Microsoft Fabric will return tables from semantic models, lakehouses, and mirrored databases as individual results. Users can search by table name or description, or find a table by an exact column-name match. More ob",
+      "status": "",
+      "category": "Analytics",
+      "link": "https://azure.microsoft.com/updates?id=573875",
+      "date": "2026-10-05T17:55:23.000Z"
+    },
+    {
+      "title": "Public Preview: Azure Backup for PostgreSQL flexible server and elastic cluster (v2)",
+      "titleKo": "Public Preview: Azure Backup for PostgreSQL flexible server and elastic cluster (v2)",
+      "summaryKo": "Azure Backup for PostgreSQL flexible server and elastic cluster (v2) preview brings enterprise-grade long-term retention to PostgreSQL. Backups are taken as physical backups from managed disk snapshots and vaulted in an Azure Backup vault, so protection n",
+      "status": "In preview",
+      "category": "Management and governance",
+      "link": "https://azure.microsoft.com/updates?id=573425",
+      "date": "2026-10-05T17:44:31.000Z"
+    },
+    {
+      "title": "Public Preview: IPv6 Support for Application Gateway WAF",
+      "titleKo": "Public Preview: IPv6 Support for Application Gateway WAF",
+      "summaryKo": "Announcing the Public Preview of IPv6 support for Application Gateway WAF.Application Gateway Web Application Firewall (WAF) now supports inspection and enforcement for IPv6 traffic in Public Preview, marking a major step forward in modernizing the platfo",
+      "status": "In preview",
+      "category": "Networking",
+      "link": "https://azure.microsoft.com/updates?id=573861",
+      "date": "2026-10-05T17:41:41.000Z"
+    },
     {
       "title": "Public Preview: Major version upgrades (MVU) for Azure Database for PostgreSQL elastic clusters",
       "titleKo": "Public Preview: Major version upgrades (MVU) for Azure Database for PostgreSQL elastic clusters",
