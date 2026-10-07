@@ -1,8 +1,53 @@
 {
-  "generatedAt": "2026-10-06T01:39:53.856Z",
+  "generatedAt": "2026-10-07T00:22:25.346Z",
   "source": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
-  "count": 88,
+  "count": 93,
   "items": [
+    {
+      "title": "Retirement: Pod name dimension in AKS pod platform metrics",
+      "titleKo": "Retirement: Pod name dimension in AKS pod platform metrics",
+      "summaryKo": "Beginning September 30, 2027, support for the pod name dimension on the following Azure Monitor platform metrics is retiring, and these metrics are transitioning to aggregate pod counters:Number of pods by phase (kube_pod_status_phase)Number of pods in Re",
+      "status": "Retirements",
+      "category": "Compute",
+      "link": "https://azure.microsoft.com/updates?id=570232",
+      "date": "2026-10-06T22:37:54.000Z"
+    },
+    {
+      "title": "Retirement: Azure App Service on Azure Stack Hub",
+      "titleKo": "Retirement: Azure App Service on Azure Stack Hub",
+      "summaryKo": "Azure App Service on Azure Stack Hub will be retired on September 30, 2029. Starting September 30, 2026, new installations will no longer be supported, and no new product releases, features, or enhancements will be made available. Existing supported deplo",
+      "status": "Retirements",
+      "category": "Compute",
+      "link": "https://azure.microsoft.com/updates?id=568178",
+      "date": "2026-10-06T18:24:43.000Z"
+    },
+    {
+      "title": "Retirement: Support for Java 8, 11 and 17 will end on September 1, 2027",
+      "titleKo": "Retirement: Support for Java 8, 11 and 17 will end on September 1, 2027",
+      "summaryKo": "On September 1, 2027 support for Java 8, 11 and 17 will end. Your apps that are hosted on App Service will continue to run, but security updates will no longer be available, and we’ll no longer provide customer service for Java 8, 11 and 17.Required actio",
+      "status": "Retirements",
+      "category": "Compute",
+      "link": "https://azure.microsoft.com/updates?id=568585",
+      "date": "2026-10-06T18:21:59.000Z"
+    },
+    {
+      "title": "Retirement: Always Encrypted with Intel SGX Enclaves",
+      "titleKo": "Retirement: Always Encrypted with Intel SGX Enclaves",
+      "summaryKo": "Always Encrypted with Intel SGX enclaves in Azure SQL Database will retire on October 31, 2027 as support for SGX-enabled DC-series hardware is phased out. Customers should transition to Virtualization-Based Security (VBS) enclaves, a hardware-independent",
+      "status": "Retirements",
+      "category": "Databases",
+      "link": "https://azure.microsoft.com/updates?id=569236",
+      "date": "2026-10-06T16:42:33.000Z"
+    },
+    {
+      "title": "Public Preview: AKS on bare metal now on Ubuntu",
+      "titleKo": "Public Preview: AKS on bare metal now on Ubuntu",
+      "summaryKo": "Running Kubernetes on-premises often means adding a virtualization layer, adapting to unfamiliar infrastructure, or giving up control over the hardware and software your applications depend on. For AI workloads, these tradeoffs can limit access to local d",
+      "status": "In preview",
+      "category": "Feature",
+      "link": "https://azure.microsoft.com/updates?id=573782",
+      "date": "2026-10-06T15:44:06.000Z"
+    },
     {
       "title": "Public Preview: Azure HorizonDB expands to additional regions",
       "titleKo": "Public Preview: Azure HorizonDB expands to additional regions",
