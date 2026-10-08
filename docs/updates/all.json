@@ -1,8 +1,26 @@
 {
-  "generatedAt": "2026-10-07T00:22:25.346Z",
+  "generatedAt": "2026-10-08T00:43:07.374Z",
   "source": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
-  "count": 93,
+  "count": 95,
   "items": [
+    {
+      "title": "Generally Available: Anyscale on Azure",
+      "titleKo": "Generally Available: Anyscale on Azure",
+      "summaryKo": "Anyscale on Azure is now Generally Available. Anyscale on Azure is a managed platform for running distributed Python workloads on Ray. It deploys directly onto your Azure Kubernetes Service (AKS) cluster and integrates with the Azure services your team al",
+      "status": "Launched",
+      "category": "Compute",
+      "link": "https://azure.microsoft.com/updates?id=573744",
+      "date": "2026-10-07T17:06:00.000Z"
+    },
+    {
+      "title": "Generally Available: Enabling the Bulk admin role for SQL Server on Linux",
+      "titleKo": "Generally Available: Enabling the Bulk admin role for SQL Server on Linux",
+      "summaryKo": "Starting with SQL Server 2025 CU9 and SQL Server 2022 CU27, SQL Server on Linux supports the bulkadmin fixed server role and the ADMINISTER BULK OPERATIONS permission for performing bulk data import operations without requiring users to be members of the",
+      "status": "Launched",
+      "category": "Feature",
+      "link": "https://azure.microsoft.com/updates?id=573443",
+      "date": "2026-10-07T16:57:04.000Z"
+    },
     {
       "title": "Retirement: Pod name dimension in AKS pod platform metrics",
       "titleKo": "Retirement: Pod name dimension in AKS pod platform metrics",
