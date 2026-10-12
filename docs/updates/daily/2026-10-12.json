@@ -1,0 +1,52 @@
+{
+  "generatedAt": "2026-10-12T00:14:13.250Z",
+  "source": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
+  "translated": false,
+  "items": [
+    {
+      "title": "Retirement: Azure Key Vault Secrets Provider Extension for Azure Arc enabled Kubernetes clusters",
+      "titleKo": "Retirement: Azure Key Vault Secrets Provider Extension for Azure Arc enabled Kubernetes clusters",
+      "summaryKo": "The Azure Key Vault Secrets Provider Extension for Azure Arc-enabled Kubernetes will be retired on October 9, 2027.Customers currently using the extension should plan to migrate to the Azure Key Vault Secret Store Extension before the retirement date. The",
+      "status": "Retirements",
+      "category": "",
+      "link": "https://azure.microsoft.com/updates?id=570313",
+      "date": "2026-10-09T20:27:17.000Z"
+    },
+    {
+      "title": "Generally Available: Managed StandardV2 NAT Gateway for AKS",
+      "titleKo": "Generally Available: Managed StandardV2 NAT Gateway for AKS",
+      "summaryKo": "AKS will now provision and manage a StandardV2 NAT Gateway for clusters using an AKS-managed virtual network.StandardV2 is now the default managed NAT Gateway SKU for new clusters in supported regions when using the managedNATGateway outbound type. Standa",
+      "status": "Launched",
+      "category": "Compute",
+      "link": "https://azure.microsoft.com/updates?id=574430",
+      "date": "2026-10-08T22:51:01.000Z"
+    },
+    {
+      "title": "Generally Available: Azure Database for PostgreSQL flexible server in East US 3",
+      "titleKo": "Generally Available: Azure Database for PostgreSQL flexible server in East US 3",
+      "summaryKo": "Now you can deploy Azure Database for PostgreSQL flexible server in the East US 3 Azure region. Learn more.",
+      "status": "Launched",
+      "category": "Databases",
+      "link": "https://azure.microsoft.com/updates?id=573691",
+      "date": "2026-10-08T19:56:31.000Z"
+    },
+    {
+      "title": "Retirement: Microsoft Dev Box will be retired on September 18, 2028",
+      "titleKo": "Retirement: Microsoft Dev Box will be retired on September 18, 2028",
+      "summaryKo": "Microsoft Dev Box will retire on September 18, 2028. Beginning on September 14, 2026, Microsoft Dev Box will begin the closing-down process. After retirement, Microsoft Dev Box will no longer be available. Microsoft Dev Box is currently in maintenance mod",
+      "status": "Retirements",
+      "category": "Developer tools",
+      "link": "https://azure.microsoft.com/updates?id=567933",
+      "date": "2026-10-08T18:23:25.000Z"
+    },
+    {
+      "title": "Retirement: Azure Deployment Environments will be retired on February 22, 2027",
+      "titleKo": "Retirement: Azure Deployment Environments will be retired on February 22, 2027",
+      "summaryKo": "Azure Deployment Environments will retire on February 22, 2027. Beginning on September 14, 2026, Azure Deployment Environments will begin the closing-down process. After retirement, the service will no longer be available. To help avoid disruption, we rec",
+      "status": "Retirements",
+      "category": "Developer tools",
+      "link": "https://azure.microsoft.com/updates?id=567934",
+      "date": "2026-10-08T18:20:34.000Z"
+    }
+  ]
+}
