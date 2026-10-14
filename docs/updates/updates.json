@@ -1,8 +1,26 @@
 {
-  "generatedAt": "2026-10-14T00:09:14.874Z",
+  "generatedAt": "2026-10-14T23:42:09.362Z",
   "source": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
   "translated": false,
   "items": [
+    {
+      "title": "Generally Available: Azure Cloud HSM hardware audit logging",
+      "titleKo": "Generally Available: Azure Cloud HSM hardware audit logging",
+      "summaryKo": "Hardware Audit Logging for Azure Cloud HSM provides hardware-generated audit records for supported HSM management operations, helping organizations strengthen security monitoring, compliance reporting, governance, and forensic investigations. Customers ca",
+      "status": "Launched",
+      "category": "Feature",
+      "link": "https://azure.microsoft.com/updates?id=576377",
+      "date": "2026-10-14T19:17:47.000Z"
+    },
+    {
+      "title": "Generally Available: Azure Site Recovery Support for Azure ARC-enabled Windows VMWare/Physical servers",
+      "titleKo": "Generally Available: Azure Site Recovery Support for Azure ARC-enabled Windows VMWare/Physical servers",
+      "summaryKo": "Azure Site Recovery (ASR) now supports disaster recovery for Azure ARC-enabled Windows VMWare virtual machines and on-premise physical servers. Customers can protect ARC-managed machines with ASR while continuing to use Azure ARC for governance, inventory",
+      "status": "Launched",
+      "category": "Management and governance",
+      "link": "https://azure.microsoft.com/updates?id=576214",
+      "date": "2026-10-14T19:13:31.000Z"
+    },
     {
       "title": "Retirement: Azure Key Vault Secrets Provider Extension for Azure Arc enabled Kubernetes clusters",
       "titleKo": "Retirement: Azure Key Vault Secrets Provider Extension for Azure Arc enabled Kubernetes clusters",
@@ -29,24 +47,6 @@
       "category": "Databases",
       "link": "https://azure.microsoft.com/updates?id=573691",
       "date": "2026-10-08T19:56:31.000Z"
-    },
-    {
-      "title": "Retirement: Microsoft Dev Box will be retired on September 18, 2028",
-      "titleKo": "Retirement: Microsoft Dev Box will be retired on September 18, 2028",
-      "summaryKo": "Microsoft Dev Box will retire on September 18, 2028. Beginning on September 14, 2026, Microsoft Dev Box will begin the closing-down process. After retirement, Microsoft Dev Box will no longer be available. Microsoft Dev Box is currently in maintenance mod",
-      "status": "Retirements",
-      "category": "Developer tools",
-      "link": "https://azure.microsoft.com/updates?id=567933",
-      "date": "2026-10-08T18:23:25.000Z"
-    },
-    {
-      "title": "Retirement: Azure Deployment Environments will be retired on February 22, 2027",
-      "titleKo": "Retirement: Azure Deployment Environments will be retired on February 22, 2027",
-      "summaryKo": "Azure Deployment Environments will retire on February 22, 2027. Beginning on September 14, 2026, Azure Deployment Environments will begin the closing-down process. After retirement, the service will no longer be available. To help avoid disruption, we rec",
-      "status": "Retirements",
-      "category": "Developer tools",
-      "link": "https://azure.microsoft.com/updates?id=567934",
-      "date": "2026-10-08T18:20:34.000Z"
     }
   ]
 }
