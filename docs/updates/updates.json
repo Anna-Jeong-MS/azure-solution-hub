@@ -1,8 +1,26 @@
 {
-  "generatedAt": "2026-10-18T22:47:30.647Z",
+  "generatedAt": "2026-10-20T00:06:31.871Z",
   "source": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
   "translated": false,
   "items": [
+    {
+      "title": "Generally Available: Metrics usage insights for Azure Monitor workspace",
+      "titleKo": "Generally Available: Metrics usage insights for Azure Monitor workspace",
+      "summaryKo": "Metrics usage insights is now generally available, giving you greater visibility into what’s driving metrics usage across your Azure Monitor workspace. Monitor workspace utilization, identify unused metrics, understand usage trends, and investigate change",
+      "status": "Launched",
+      "category": "DevOps",
+      "link": "https://azure.microsoft.com/updates?id=577165",
+      "date": "2026-10-19T20:23:15.000Z"
+    },
+    {
+      "title": "Generally Available: Azure DNS enables DNS-based load balancing through Traffic Manager linked records",
+      "titleKo": "Generally Available: Azure DNS enables DNS-based load balancing through Traffic Manager linked records",
+      "summaryKo": "Azure DNS now provides DNS based load balancing by seamless integration with Azure Traffic Manager. Customers can directly associate an Azure DNS record set with a Traffic Manager profile, eliminating the need to create a CNAME record pointing to the traf",
+      "status": "Launched",
+      "category": "Networking",
+      "link": "https://azure.microsoft.com/updates?id=573917",
+      "date": "2026-10-19T17:55:40.000Z"
+    },
     {
       "title": "Public Preview: Azure Databricks Private network gateway",
       "titleKo": "Public Preview: Azure Databricks Private network gateway",
@@ -29,24 +47,6 @@
       "category": "Storage",
       "link": "https://azure.microsoft.com/updates?id=576542",
       "date": "2026-10-15T19:05:18.000Z"
-    },
-    {
-      "title": "Generally Available: Standard service endpoint",
-      "titleKo": "Generally Available: Standard service endpoint",
-      "summaryKo": "Standard service endpoint, a new capability in the Azure Private Link family, provides a scalable and secure approach for connecting Azure IaaS workloads to Azure PaaS services. Standard service endpoint addresses the manageability, and the scale limitati",
-      "status": "Launched",
-      "category": "Networking",
-      "link": "https://azure.microsoft.com/updates?id=571025",
-      "date": "2026-10-15T17:39:51.000Z"
-    },
-    {
-      "title": "Generally Availabile: Automatic zone balance for Virtual Machine Scale Sets",
-      "titleKo": "Generally Availabile: Automatic zone balance for Virtual Machine Scale Sets",
-      "summaryKo": "Automatic zone balance for Virtual Machine Scale Sets is now generally available. This feature continuously monitors scale sets deployed across availability zones and automatically redistributes VM instances when zonal imbalances occur. This helps reduce",
-      "status": "Launched",
-      "category": "Feature",
-      "link": "https://azure.microsoft.com/updates?id=576334",
-      "date": "2026-10-15T16:54:20.000Z"
     }
   ]
 }

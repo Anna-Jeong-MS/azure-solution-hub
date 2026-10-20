@@ -1,8 +1,26 @@
 {
-  "generatedAt": "2026-10-18T22:47:30.651Z",
+  "generatedAt": "2026-10-20T00:06:31.874Z",
   "source": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
-  "count": 108,
+  "count": 110,
   "items": [
+    {
+      "title": "Generally Available: Metrics usage insights for Azure Monitor workspace",
+      "titleKo": "Generally Available: Metrics usage insights for Azure Monitor workspace",
+      "summaryKo": "Metrics usage insights is now generally available, giving you greater visibility into what’s driving metrics usage across your Azure Monitor workspace. Monitor workspace utilization, identify unused metrics, understand usage trends, and investigate change",
+      "status": "Launched",
+      "category": "DevOps",
+      "link": "https://azure.microsoft.com/updates?id=577165",
+      "date": "2026-10-19T20:23:15.000Z"
+    },
+    {
+      "title": "Generally Available: Azure DNS enables DNS-based load balancing through Traffic Manager linked records",
+      "titleKo": "Generally Available: Azure DNS enables DNS-based load balancing through Traffic Manager linked records",
+      "summaryKo": "Azure DNS now provides DNS based load balancing by seamless integration with Azure Traffic Manager. Customers can directly associate an Azure DNS record set with a Traffic Manager profile, eliminating the need to create a CNAME record pointing to the traf",
+      "status": "Launched",
+      "category": "Networking",
+      "link": "https://azure.microsoft.com/updates?id=573917",
+      "date": "2026-10-19T17:55:40.000Z"
+    },
     {
       "title": "Public Preview: Azure Databricks Private network gateway",
       "titleKo": "Public Preview: Azure Databricks Private network gateway",
