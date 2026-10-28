@@ -1,0 +1,52 @@
+{
+  "generatedAt": "2026-10-28T00:14:49.240Z",
+  "source": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
+  "translated": false,
+  "items": [
+    {
+      "title": "Generally Available: Higher limit of Azure Blob Storage accounts per region per subscription",
+      "titleKo": "Generally Available: Higher limit of Azure Blob Storage accounts per region per subscription",
+      "summaryKo": "Higher Azure Storage account resource quotas are now generally available, supporting up to 1,000 storage accounts with standard endpoints per region, per subscription, up from the default of 250. Manage more accounts in a single subscription, reducing the",
+      "status": "Launched",
+      "category": "Storage",
+      "link": "https://azure.microsoft.com/updates?id=578358",
+      "date": "2026-10-27T21:16:52.000Z"
+    },
+    {
+      "title": "Generally Available: Cost management and tagging for Claude models in Microsoft Foundry",
+      "titleKo": "Generally Available: Cost management and tagging for Claude models in Microsoft Foundry",
+      "summaryKo": "Microsoft Foundry now brings Claude models into Azure Cost Management alongside the rest of your Foundry spend, generally available. Until now, Claude charges appeared under SaaS rather than under the Foundry resource used to deploy them, and Claude deplo",
+      "status": "Launched",
+      "category": "AI + machine learning",
+      "link": "https://azure.microsoft.com/updates?id=577260",
+      "date": "2026-10-27T17:19:43.000Z"
+    },
+    {
+      "title": "Generally Available: Azure Front Door profile and route level WAF policies",
+      "titleKo": "Generally Available: Azure Front Door profile and route level WAF policies",
+      "summaryKo": "Announcing the general availability of profile and route level policies for Azure Web Application Firewall (WAF) on Azure Front Door Premium. WAF policies are no longer limited to individual domains: you can now apply broad baseline protection across an e",
+      "status": "Launched",
+      "category": "Networking",
+      "link": "https://azure.microsoft.com/updates?id=578153",
+      "date": "2026-10-27T16:58:04.000Z"
+    },
+    {
+      "title": "Generally Available: Network Watcher VNet flow logs filtering",
+      "titleKo": "Generally Available: Network Watcher VNet flow logs filtering",
+      "summaryKo": "Azure Network Watcher VNet flow logs filtering is now generally available, enabling you to control which network traffic flows are logged based on specific criteria such as IP addresses, ports, protocols, encryption state, flow state, and traffic directio",
+      "status": "Launched",
+      "category": "Management and governance",
+      "link": "https://azure.microsoft.com/updates?id=577782",
+      "date": "2026-10-26T16:02:05.000Z"
+    },
+    {
+      "title": "Generally Available: Item Level Recovery for Azure VMs with Premium SSDv2 and Ultra Disks in Azure Backup",
+      "titleKo": "Generally Available: Item Level Recovery for Azure VMs with Premium SSDv2 and Ultra Disks in Azure Backup",
+      "summaryKo": "Azure Backup now supports Item-Level Recovery (ILR) for Azure virtual machines using Premium SSD v2 and Ultra disks with both 512 byte and 4KB logical sector sizes. You can now recover individual files and folders from your Azure VMs with Premium SSDv2 an",
+      "status": "Launched",
+      "category": "Management and governance",
+      "link": "https://azure.microsoft.com/updates?id=577963",
+      "date": "2026-10-23T19:21:07.000Z"
+    }
+  ]
+}
