@@ -1,8 +1,35 @@
 {
-  "generatedAt": "2026-10-29T00:36:39.910Z",
+  "generatedAt": "2026-10-30T00:37:13.474Z",
   "source": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
-  "count": 125,
+  "count": 128,
   "items": [
+    {
+      "title": "Generally Available: Large OS Disk Encryption for Azure Confidential VM migrations",
+      "titleKo": "Generally Available: Large OS Disk Encryption for Azure Confidential VM migrations",
+      "summaryKo": "Large OS Disk Encryption (LOSDE) is now generally available for Azure Confidential VM migration scenarios. Organizations can move larger, production-scale workloads into confidential computing with the OS disk fully protected, instead of being held back b",
+      "status": "Launched",
+      "category": "Feature",
+      "link": "https://azure.microsoft.com/updates?id=578850",
+      "date": "2026-10-29T21:19:52.000Z"
+    },
+    {
+      "title": "Generally Available: HTTP DDoS ruleset for Azure Front Door Premium WAF",
+      "titleKo": "Generally Available: HTTP DDoS ruleset for Azure Front Door Premium WAF",
+      "summaryKo": "Announcing the general availability of the HTTP DDoS ruleset for Azure Web Application Firewall (WAF) on Azure Front Door Premium. HTTP-layer DDoS attacks remain a leading cause of application downtime, and static controls such as IP filters and fixed rat",
+      "status": "Launched",
+      "category": "Networking",
+      "link": "https://azure.microsoft.com/updates?id=578681",
+      "date": "2026-10-29T17:09:49.000Z"
+    },
+    {
+      "title": "Generally Available: Azure MCP Server 3.0",
+      "titleKo": "Generally Available: Azure MCP Server 3.0",
+      "summaryKo": "Azure MCP Server 3.0 is now generally available, expanding how AI agents and developer tools interact with Azure through the open Model Context Protocol (MCP).This release introduces new and expanded capabilities:Infrastructure as code: Azure Terraform to",
+      "status": "Launched",
+      "category": "Developer tools",
+      "link": "https://azure.microsoft.com/updates?id=578662",
+      "date": "2026-10-29T17:04:58.000Z"
+    },
     {
       "title": "Announcing: Migrate Azure Container Apps logging destination from Log Analytics to Azure Monitor",
       "titleKo": "Announcing: Migrate Azure Container Apps logging destination from Log Analytics to Azure Monitor",

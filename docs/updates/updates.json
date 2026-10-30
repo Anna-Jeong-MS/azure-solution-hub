@@ -1,8 +1,35 @@
 {
-  "generatedAt": "2026-10-29T00:36:39.873Z",
+  "generatedAt": "2026-10-30T00:37:13.471Z",
   "source": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
   "translated": false,
   "items": [
+    {
+      "title": "Generally Available: Large OS Disk Encryption for Azure Confidential VM migrations",
+      "titleKo": "Generally Available: Large OS Disk Encryption for Azure Confidential VM migrations",
+      "summaryKo": "Large OS Disk Encryption (LOSDE) is now generally available for Azure Confidential VM migration scenarios. Organizations can move larger, production-scale workloads into confidential computing with the OS disk fully protected, instead of being held back b",
+      "status": "Launched",
+      "category": "Feature",
+      "link": "https://azure.microsoft.com/updates?id=578850",
+      "date": "2026-10-29T21:19:52.000Z"
+    },
+    {
+      "title": "Generally Available: HTTP DDoS ruleset for Azure Front Door Premium WAF",
+      "titleKo": "Generally Available: HTTP DDoS ruleset for Azure Front Door Premium WAF",
+      "summaryKo": "Announcing the general availability of the HTTP DDoS ruleset for Azure Web Application Firewall (WAF) on Azure Front Door Premium. HTTP-layer DDoS attacks remain a leading cause of application downtime, and static controls such as IP filters and fixed rat",
+      "status": "Launched",
+      "category": "Networking",
+      "link": "https://azure.microsoft.com/updates?id=578681",
+      "date": "2026-10-29T17:09:49.000Z"
+    },
+    {
+      "title": "Generally Available: Azure MCP Server 3.0",
+      "titleKo": "Generally Available: Azure MCP Server 3.0",
+      "summaryKo": "Azure MCP Server 3.0 is now generally available, expanding how AI agents and developer tools interact with Azure through the open Model Context Protocol (MCP).This release introduces new and expanded capabilities:Infrastructure as code: Azure Terraform to",
+      "status": "Launched",
+      "category": "Developer tools",
+      "link": "https://azure.microsoft.com/updates?id=578662",
+      "date": "2026-10-29T17:04:58.000Z"
+    },
     {
       "title": "Announcing: Migrate Azure Container Apps logging destination from Log Analytics to Azure Monitor",
       "titleKo": "Announcing: Migrate Azure Container Apps logging destination from Log Analytics to Azure Monitor",
@@ -20,33 +47,6 @@
       "category": "Management and governance",
       "link": "https://azure.microsoft.com/updates?id=577117",
       "date": "2026-10-28T17:09:30.000Z"
-    },
-    {
-      "title": "Generally Available: Marketplace private offer enhancements",
-      "titleKo": "Generally Available: Marketplace private offer enhancements",
-      "summaryKo": "Private offers through Microsoft Marketplace help you optimize your spending power with pricing and terms aligned to your organization’s needs, including flexible billing, custom contract lengths, and more. For eligible private offers, we are simplifying",
-      "status": "Launched",
-      "category": "Management and governance",
-      "link": "https://azure.microsoft.com/updates?id=576547",
-      "date": "2026-10-28T16:23:43.000Z"
-    },
-    {
-      "title": "Generally Available: Higher limit of Azure Blob Storage accounts per region per subscription",
-      "titleKo": "Generally Available: Higher limit of Azure Blob Storage accounts per region per subscription",
-      "summaryKo": "Higher Azure Storage account resource quotas are now generally available, supporting up to 1,000 storage accounts with standard endpoints per region, per subscription, up from the default of 250. Manage more accounts in a single subscription, reducing the",
-      "status": "Launched",
-      "category": "Storage",
-      "link": "https://azure.microsoft.com/updates?id=578358",
-      "date": "2026-10-27T21:16:52.000Z"
-    },
-    {
-      "title": "Generally Available: Cost management and tagging for Claude models in Microsoft Foundry",
-      "titleKo": "Generally Available: Cost management and tagging for Claude models in Microsoft Foundry",
-      "summaryKo": "Microsoft Foundry now brings Claude models into Azure Cost Management alongside the rest of your Foundry spend, generally available. Until now, Claude charges appeared under SaaS rather than under the Foundry resource used to deploy them, and Claude deplo",
-      "status": "Launched",
-      "category": "AI + machine learning",
-      "link": "https://azure.microsoft.com/updates?id=577260",
-      "date": "2026-10-27T17:19:43.000Z"
     }
   ]
 }
