@@ -1,0 +1,52 @@
+{
+  "generatedAt": "2026-10-31T00:23:58.546Z",
+  "source": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
+  "translated": false,
+  "items": [
+    {
+      "title": "Public Preview: Support database-level managed identity (including FIC) in Create Database Scoped Credential T-SQL",
+      "titleKo": "Public Preview: Support database-level managed identity (including FIC) in Create Database Scoped Credential T-SQL",
+      "summaryKo": "With database-level managed identity in Azure SQL Database, you can use a user-assigned managed identity for each database to query files in Azure Blob Storage and Azure Data Lake Storage Gen2 through external tables and OPENROWSET. You can authenticate t",
+      "status": "In preview",
+      "category": "Databases",
+      "link": "https://azure.microsoft.com/updates?id=577491",
+      "date": "2026-10-30T17:16:27.000Z"
+    },
+    {
+      "title": "Generally Available: Large OS Disk Encryption for Azure Confidential VM migrations",
+      "titleKo": "Generally Available: Large OS Disk Encryption for Azure Confidential VM migrations",
+      "summaryKo": "Large OS Disk Encryption (LOSDE) is now generally available for Azure Confidential VM migration scenarios. Organizations can move larger, production-scale workloads into confidential computing with the OS disk fully protected, instead of being held back b",
+      "status": "Launched",
+      "category": "Feature",
+      "link": "https://azure.microsoft.com/updates?id=578850",
+      "date": "2026-10-29T21:19:52.000Z"
+    },
+    {
+      "title": "Generally Available: HTTP DDoS ruleset for Azure Front Door Premium WAF",
+      "titleKo": "Generally Available: HTTP DDoS ruleset for Azure Front Door Premium WAF",
+      "summaryKo": "Announcing the general availability of the HTTP DDoS ruleset for Azure Web Application Firewall (WAF) on Azure Front Door Premium. HTTP-layer DDoS attacks remain a leading cause of application downtime, and static controls such as IP filters and fixed rat",
+      "status": "Launched",
+      "category": "Networking",
+      "link": "https://azure.microsoft.com/updates?id=578681",
+      "date": "2026-10-29T17:09:49.000Z"
+    },
+    {
+      "title": "Generally Available: Azure MCP Server 3.0",
+      "titleKo": "Generally Available: Azure MCP Server 3.0",
+      "summaryKo": "Azure MCP Server 3.0 is now generally available, expanding how AI agents and developer tools interact with Azure through the open Model Context Protocol (MCP).This release introduces new and expanded capabilities:Infrastructure as code: Azure Terraform to",
+      "status": "Launched",
+      "category": "Developer tools",
+      "link": "https://azure.microsoft.com/updates?id=578662",
+      "date": "2026-10-29T17:04:58.000Z"
+    },
+    {
+      "title": "Announcing: Migrate Azure Container Apps logging destination from Log Analytics to Azure Monitor",
+      "titleKo": "Announcing: Migrate Azure Container Apps logging destination from Log Analytics to Azure Monitor",
+      "summaryKo": "The Log Analytics logging destination for Azure Container Apps is now a legacy logging option. Existing environments configured with the Log Analytics logging destination will continue to function normally. However, we recommend planning a migration to th",
+      "status": "",
+      "category": "Containers",
+      "link": "https://azure.microsoft.com/updates?id=577689",
+      "date": "2026-10-28T17:52:51.000Z"
+    }
+  ]
+}
