@@ -1,8 +1,53 @@
 {
-  "generatedAt": "2026-11-02T00:15:39.361Z",
+  "generatedAt": "2026-11-03T02:45:47.388Z",
   "source": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
-  "count": 129,
+  "count": 134,
   "items": [
+    {
+      "title": "Public Preview: On-prem NAS share discovery and assessment are now available using Azure Migrate",
+      "titleKo": "Public Preview: On-prem NAS share discovery and assessment are now available using Azure Migrate",
+      "summaryKo": "Azure Migrate now supports discovery and assessment for network-attached storage, allowing customers and partners to plan migrations of Dell PowerScale (OneFS) and NetApp ONTAP storage to Azure. The Azure Migrate appliance connects directly to your NAS cl",
+      "status": "In preview",
+      "category": "Management and governance",
+      "link": "https://azure.microsoft.com/updates?id=577975",
+      "date": "2026-11-02T19:37:11.000Z"
+    },
+    {
+      "title": "Retirement: OT security in Microsoft Defender for IoT",
+      "titleKo": "Retirement: OT security in Microsoft Defender for IoT",
+      "summaryKo": "This is the formal notice that Microsoft plans to deprecate the operational technology (OT) security component of Microsoft Defender for IoT. The service will be fully deprecated in October 2029, following a three-year transition period.This change applie",
+      "status": "Retirements",
+      "category": "",
+      "link": "https://azure.microsoft.com/updates?id=576255",
+      "date": "2026-11-02T19:22:28.000Z"
+    },
+    {
+      "title": "Generally Available: Change from virtual network integration to a private endpoint capable network configuration in Azure Database for PostgreSQL flexible server",
+      "titleKo": "Generally Available: Change from virtual network integration to a private endpoint capable network configuration in Azure Database for PostgreSQL flexible server",
+      "summaryKo": "You now have greater flexibility in network design for Azure Database for PostgreSQL Flexible Server workloads. Now you can change existing VNet-integrated servers from delegated-subnet networking to a private endpoint-capable configuration, enabling secu",
+      "status": "Launched",
+      "category": "Databases",
+      "link": "https://azure.microsoft.com/updates?id=574541",
+      "date": "2026-11-02T19:20:33.000Z"
+    },
+    {
+      "title": "Retirement: Azure Fluid Relay",
+      "titleKo": "Retirement: Azure Fluid Relay",
+      "summaryKo": "On February 2, 2027, we will retire Azure Fluid Relay. After this date, Azure Fluid Relay will reach end of availability, and workloads that continue to depend on the service may experience disruption.The Fluid Framework remains available as an open-sourc",
+      "status": "Retirements",
+      "category": "Web",
+      "link": "https://azure.microsoft.com/updates?id=570498",
+      "date": "2026-11-02T19:01:41.000Z"
+    },
+    {
+      "title": "Generally Available: Azure Storage Actions adds automatic task updates, execution controls, and case-sensitive matching",
+      "titleKo": "Generally Available: Azure Storage Actions adds automatic task updates, execution controls, and case-sensitive matching",
+      "summaryKo": "Azure Storage Actions is introducing three enhancements to simplify task management and give you more control over automated data operations across Azure Blob and Data Lake Storage:Automatic propagation of task definition updates: When you update a storag",
+      "status": "Launched",
+      "category": "Storage",
+      "link": "https://azure.microsoft.com/updates?id=578628",
+      "date": "2026-11-02T18:34:01.000Z"
+    },
     {
       "title": "Public Preview: Support database-level managed identity (including FIC) in Create Database Scoped Credential T-SQL",
       "titleKo": "Public Preview: Support database-level managed identity (including FIC) in Create Database Scoped Credential T-SQL",
