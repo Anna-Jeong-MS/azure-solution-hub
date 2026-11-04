@@ -1,52 +1,52 @@
 {
-  "generatedAt": "2026-11-03T02:45:47.385Z",
+  "generatedAt": "2026-11-04T01:02:54.705Z",
   "source": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
   "translated": false,
   "items": [
     {
-      "title": "Public Preview: On-prem NAS share discovery and assessment are now available using Azure Migrate",
-      "titleKo": "Public Preview: On-prem NAS share discovery and assessment are now available using Azure Migrate",
-      "summaryKo": "Azure Migrate now supports discovery and assessment for network-attached storage, allowing customers and partners to plan migrations of Dell PowerScale (OneFS) and NetApp ONTAP storage to Azure. The Azure Migrate appliance connects directly to your NAS cl",
+      "title": "Public Preview: JWT validation for Application Gateway for Containers",
+      "titleKo": "Public Preview: JWT validation for Application Gateway for Containers",
+      "summaryKo": "Application Gateway for Containers now supports centralized JSON Web Token validation through the AuthPolicy custom resource. Teams can validate a token signature, issuer, lifetime, and configured audience by using signing keys retrieved from a trusted HT",
       "status": "In preview",
-      "category": "Management and governance",
-      "link": "https://azure.microsoft.com/updates?id=577975",
-      "date": "2026-11-02T19:37:11.000Z"
+      "category": "Networking",
+      "link": "https://azure.microsoft.com/updates?id=576382",
+      "date": "2026-11-03T21:17:08.000Z"
     },
     {
-      "title": "Retirement: OT security in Microsoft Defender for IoT",
-      "titleKo": "Retirement: OT security in Microsoft Defender for IoT",
-      "summaryKo": "This is the formal notice that Microsoft plans to deprecate the operational technology (OT) security component of Microsoft Defender for IoT. The service will be fully deprecated in October 2029, following a three-year transition period.This change applie",
-      "status": "Retirements",
-      "category": "",
-      "link": "https://azure.microsoft.com/updates?id=576255",
-      "date": "2026-11-02T19:22:28.000Z"
+      "title": "Public Preview: MCP gateway for Application Gateway for Containers",
+      "titleKo": "Public Preview: MCP gateway for Application Gateway for Containers",
+      "summaryKo": "Application Gateway for Containers now supports Model Context Protocol routing through the new MCPRoute custom resource. Platform teams can publish MCP servers behind a stable hostname and path while centralizing TLS, JWT validation, Web Application Firew",
+      "status": "In preview",
+      "category": "Networking",
+      "link": "https://azure.microsoft.com/updates?id=576388",
+      "date": "2026-11-03T21:16:36.000Z"
     },
     {
-      "title": "Generally Available: Change from virtual network integration to a private endpoint capable network configuration in Azure Database for PostgreSQL flexible server",
-      "titleKo": "Generally Available: Change from virtual network integration to a private endpoint capable network configuration in Azure Database for PostgreSQL flexible server",
-      "summaryKo": "You now have greater flexibility in network design for Azure Database for PostgreSQL Flexible Server workloads. Now you can change existing VNet-integrated servers from delegated-subnet networking to a private endpoint-capable configuration, enabling secu",
-      "status": "Launched",
-      "category": "Databases",
-      "link": "https://azure.microsoft.com/updates?id=574541",
-      "date": "2026-11-02T19:20:33.000Z"
+      "title": "Public Preview: Private ingress for Application Gateway for Containers",
+      "titleKo": "Public Preview: Private ingress for Application Gateway for Containers",
+      "summaryKo": "Application Gateway for Containers now supports private frontends that are reachable only through approved Azure Private Link private endpoints. This enables organizations to keep internal applications, shared services, and cross-cluster traffic on privat",
+      "status": "In preview",
+      "category": "Networking",
+      "link": "https://azure.microsoft.com/updates?id=576393",
+      "date": "2026-11-03T21:15:46.000Z"
     },
     {
-      "title": "Retirement: Azure Fluid Relay",
-      "titleKo": "Retirement: Azure Fluid Relay",
-      "summaryKo": "On February 2, 2027, we will retire Azure Fluid Relay. After this date, Azure Fluid Relay will reach end of availability, and workloads that continue to depend on the service may experience disruption.The Fluid Framework remains available as an open-sourc",
-      "status": "Retirements",
-      "category": "Web",
-      "link": "https://azure.microsoft.com/updates?id=570498",
-      "date": "2026-11-02T19:01:41.000Z"
-    },
-    {
-      "title": "Generally Available: Azure Storage Actions adds automatic task updates, execution controls, and case-sensitive matching",
-      "titleKo": "Generally Available: Azure Storage Actions adds automatic task updates, execution controls, and case-sensitive matching",
-      "summaryKo": "Azure Storage Actions is introducing three enhancements to simplify task management and give you more control over automated data operations across Azure Blob and Data Lake Storage:Automatic propagation of task definition updates: When you update a storag",
-      "status": "Launched",
+      "title": "Public Preview: Advanced capacity insights are now available in Azure Storage Discovery",
+      "titleKo": "Public Preview: Advanced capacity insights are now available in Azure Storage Discovery",
+      "summaryKo": "Advanced capacity insights are now available for preview in Azure Storage Discovery. Storage Discovery now provides greater visibility into storage usage through insights such as access patterns, data age, storage tiers, object size distribution, retentio",
+      "status": "In preview",
       "category": "Storage",
-      "link": "https://azure.microsoft.com/updates?id=578628",
-      "date": "2026-11-02T18:34:01.000Z"
+      "link": "https://azure.microsoft.com/updates?id=578655",
+      "date": "2026-11-03T20:20:29.000Z"
+    },
+    {
+      "title": "Public Preview: Extend immutability for PITR backups for Azure SQL Database and Azure SQL Managed Instance",
+      "titleKo": "Public Preview: Extend immutability for PITR backups for Azure SQL Database and Azure SQL Managed Instance",
+      "summaryKo": "With this enhancement, you have the ability to lock your retention to the configured PITR retention, beyond the default 7 days of immutable backups that are already available. This is especially useful for financial customers who typically have 35 days of",
+      "status": "In preview",
+      "category": "Databases",
+      "link": "https://azure.microsoft.com/updates?id=579305",
+      "date": "2026-11-03T18:36:12.000Z"
     }
   ]
 }
