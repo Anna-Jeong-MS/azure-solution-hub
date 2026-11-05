@@ -1,8 +1,44 @@
 {
-  "generatedAt": "2026-11-04T01:02:54.707Z",
+  "generatedAt": "2026-11-05T01:18:15.559Z",
   "source": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
-  "count": 139,
+  "count": 143,
   "items": [
+    {
+      "title": "Generally Available: Azure Database for PostgreSQL stable REST API version 2026-10-01",
+      "titleKo": "Generally Available: Azure Database for PostgreSQL stable REST API version 2026-10-01",
+      "summaryKo": "The Azure Database for PostgreSQL Flexible Server REST API version 2026-10-01 is now generally available. This stable API release introduces expanded capabilities for maintenance management, immutable backups, multi-tenant encryption (cross-tenant custome",
+      "status": "Launched",
+      "category": "Databases",
+      "link": "https://azure.microsoft.com/updates?id=579300",
+      "date": "2026-11-04T18:42:12.000Z"
+    },
+    {
+      "title": "Generally Available: Route maps for Azure Route Server",
+      "titleKo": "Generally Available: Route maps for Azure Route Server",
+      "summaryKo": "Route maps for Azure Route Server are now generally available in the Azure public cloud. Route maps provide fine-grained control over inbound and outbound routing across hybrid connections. Customers can manage routes advertised to and from Azure Route Se",
+      "status": "",
+      "category": "Networking",
+      "link": "https://azure.microsoft.com/updates?id=578966",
+      "date": "2026-11-04T18:39:41.000Z"
+    },
+    {
+      "title": "Public Preview: Azure Firewall IPv6 now supports application rules",
+      "titleKo": "Public Preview: Azure Firewall IPv6 now supports application rules",
+      "summaryKo": "Azure Firewall now supports application rules in IPv6 Public Preview, enabling layer 7 filtering for IPv6 HTTP and HTTPS traffic. The enhancement extends application-level controls to IPv6 and dual-stack deployments, helping customers maintain consistent",
+      "status": "In preview",
+      "category": "Networking",
+      "link": "https://azure.microsoft.com/updates?id=579507",
+      "date": "2026-11-04T18:09:43.000Z"
+    },
+    {
+      "title": "Public Preview: Multi-disk crash-consistent VM restore points for Premium SSD v2 and Ultra Disks on VMs with SCSI disk controller",
+      "titleKo": "Public Preview: Multi-disk crash-consistent VM restore points for Premium SSD v2 and Ultra Disks on VMs with SCSI disk controller",
+      "summaryKo": "Multi-disk crash-consistent restore points for Azure virtual machines with Premium SSD v2 and Ultra data disks are now available in public preview on VMs with SCSI disk controllers. You can use this to capture the agent-less crash consistent restore point",
+      "status": "In preview",
+      "category": "Storage",
+      "link": "https://azure.microsoft.com/updates?id=579162",
+      "date": "2026-11-04T17:13:51.000Z"
+    },
     {
       "title": "Public Preview: JWT validation for Application Gateway for Containers",
       "titleKo": "Public Preview: JWT validation for Application Gateway for Containers",
