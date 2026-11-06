@@ -1,8 +1,26 @@
 {
-  "generatedAt": "2026-11-05T01:18:15.559Z",
+  "generatedAt": "2026-11-06T01:22:22.590Z",
   "source": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
-  "count": 143,
+  "count": 145,
   "items": [
+    {
+      "title": "Generally Available: Azure Front Door TLS key exchange policy with post-quantum support",
+      "titleKo": "Generally Available: Azure Front Door TLS key exchange policy with post-quantum support",
+      "summaryKo": "Azure Front Door now supports configurable TLS key exchange policies, including hybrid post-quantum key exchange, to help you prepare for evolving cryptographic threats while meeting your security and client compatibility requirements. Choose a predefined",
+      "status": "Launched",
+      "category": "Networking",
+      "link": "https://azure.microsoft.com/updates?id=577668",
+      "date": "2026-11-05T23:19:48.000Z"
+    },
+    {
+      "title": "Generally Available: WAF Insights for Azure Application Gateway",
+      "titleKo": "Generally Available: WAF Insights for Azure Application Gateway",
+      "summaryKo": "WAF Insights for Azure Application Gateway Web Application Firewall (WAF) is now generally available. WAF Insights is a built-in experience in the WAF policy that brings WAF logs and metrics together in interactive dashboards, so you can investigate block",
+      "status": "Launched",
+      "category": "Networking",
+      "link": "https://azure.microsoft.com/updates?id=579280",
+      "date": "2026-11-05T17:11:31.000Z"
+    },
     {
       "title": "Generally Available: Azure Database for PostgreSQL stable REST API version 2026-10-01",
       "titleKo": "Generally Available: Azure Database for PostgreSQL stable REST API version 2026-10-01",

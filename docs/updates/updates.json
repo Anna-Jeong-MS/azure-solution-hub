@@ -1,8 +1,26 @@
 {
-  "generatedAt": "2026-11-05T01:18:15.557Z",
+  "generatedAt": "2026-11-06T01:22:22.587Z",
   "source": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
   "translated": false,
   "items": [
+    {
+      "title": "Generally Available: Azure Front Door TLS key exchange policy with post-quantum support",
+      "titleKo": "Generally Available: Azure Front Door TLS key exchange policy with post-quantum support",
+      "summaryKo": "Azure Front Door now supports configurable TLS key exchange policies, including hybrid post-quantum key exchange, to help you prepare for evolving cryptographic threats while meeting your security and client compatibility requirements. Choose a predefined",
+      "status": "Launched",
+      "category": "Networking",
+      "link": "https://azure.microsoft.com/updates?id=577668",
+      "date": "2026-11-05T23:19:48.000Z"
+    },
+    {
+      "title": "Generally Available: WAF Insights for Azure Application Gateway",
+      "titleKo": "Generally Available: WAF Insights for Azure Application Gateway",
+      "summaryKo": "WAF Insights for Azure Application Gateway Web Application Firewall (WAF) is now generally available. WAF Insights is a built-in experience in the WAF policy that brings WAF logs and metrics together in interactive dashboards, so you can investigate block",
+      "status": "Launched",
+      "category": "Networking",
+      "link": "https://azure.microsoft.com/updates?id=579280",
+      "date": "2026-11-05T17:11:31.000Z"
+    },
     {
       "title": "Generally Available: Azure Database for PostgreSQL stable REST API version 2026-10-01",
       "titleKo": "Generally Available: Azure Database for PostgreSQL stable REST API version 2026-10-01",
@@ -29,24 +47,6 @@
       "category": "Networking",
       "link": "https://azure.microsoft.com/updates?id=579507",
       "date": "2026-11-04T18:09:43.000Z"
-    },
-    {
-      "title": "Public Preview: Multi-disk crash-consistent VM restore points for Premium SSD v2 and Ultra Disks on VMs with SCSI disk controller",
-      "titleKo": "Public Preview: Multi-disk crash-consistent VM restore points for Premium SSD v2 and Ultra Disks on VMs with SCSI disk controller",
-      "summaryKo": "Multi-disk crash-consistent restore points for Azure virtual machines with Premium SSD v2 and Ultra data disks are now available in public preview on VMs with SCSI disk controllers. You can use this to capture the agent-less crash consistent restore point",
-      "status": "In preview",
-      "category": "Storage",
-      "link": "https://azure.microsoft.com/updates?id=579162",
-      "date": "2026-11-04T17:13:51.000Z"
-    },
-    {
-      "title": "Public Preview: JWT validation for Application Gateway for Containers",
-      "titleKo": "Public Preview: JWT validation for Application Gateway for Containers",
-      "summaryKo": "Application Gateway for Containers now supports centralized JSON Web Token validation through the AuthPolicy custom resource. Teams can validate a token signature, issuer, lifetime, and configured audience by using signing keys retrieved from a trusted HT",
-      "status": "In preview",
-      "category": "Networking",
-      "link": "https://azure.microsoft.com/updates?id=576382",
-      "date": "2026-11-03T21:17:08.000Z"
     }
   ]
 }
