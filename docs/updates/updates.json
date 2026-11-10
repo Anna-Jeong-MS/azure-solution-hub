@@ -1,8 +1,26 @@
 {
-  "generatedAt": "2026-11-09T00:33:49.900Z",
+  "generatedAt": "2026-11-10T03:10:58.267Z",
   "source": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
   "translated": false,
   "items": [
+    {
+      "title": "Retirement: Support for .NET 8 and .NET 9 on Static Web Apps is ending November 10, 2026",
+      "titleKo": "Retirement: Support for .NET 8 and .NET 9 on Static Web Apps is ending November 10, 2026",
+      "summaryKo": "Support for .NET 8 and .NET 9 will end on November 10, 2026. Please transition your managed Functions APIs to .NET 10 by that date. Your apps will continue to operate, but security updates will no longer be provided and support for .NET 8 and .NET 9 on Az",
+      "status": "Retirements",
+      "category": "Compute",
+      "link": "https://azure.microsoft.com/updates?id=575106",
+      "date": "2026-11-09T22:50:01.000Z"
+    },
+    {
+      "title": "Public Preview: Modernize Arc-enabled Windows Servers with Azure File Sync",
+      "titleKo": "Public Preview: Modernize Arc-enabled Windows Servers with Azure File Sync",
+      "summaryKo": "Azure File Sync provides hybrid access or seamless migration of data from Windows Server to Azure Files while preserving the familiar local file server experience for users and applications. Now in preview, users have a guided Azure portal experience to s",
+      "status": "In preview",
+      "category": "Feature",
+      "link": "https://azure.microsoft.com/updates?id=579854",
+      "date": "2026-11-09T17:20:57.000Z"
+    },
     {
       "title": "Generally Available: Azure Front Door TLS key exchange policy with post-quantum support",
       "titleKo": "Generally Available: Azure Front Door TLS key exchange policy with post-quantum support",
@@ -11,15 +29,6 @@
       "category": "Networking",
       "link": "https://azure.microsoft.com/updates?id=577668",
       "date": "2026-11-05T23:19:48.000Z"
-    },
-    {
-      "title": "Generally Available: WAF Insights for Azure Application Gateway",
-      "titleKo": "Generally Available: WAF Insights for Azure Application Gateway",
-      "summaryKo": "WAF Insights for Azure Application Gateway Web Application Firewall (WAF) is now generally available. WAF Insights is a built-in experience in the WAF policy that brings WAF logs and metrics together in interactive dashboards, so you can investigate block",
-      "status": "Launched",
-      "category": "Networking",
-      "link": "https://azure.microsoft.com/updates?id=579280",
-      "date": "2026-11-05T17:11:31.000Z"
     },
     {
       "title": "Generally Available: Azure Database for PostgreSQL stable REST API version 2026-10-01",
@@ -38,15 +47,6 @@
       "category": "Networking",
       "link": "https://azure.microsoft.com/updates?id=578966",
       "date": "2026-11-04T18:39:41.000Z"
-    },
-    {
-      "title": "Public Preview: Azure Firewall IPv6 now supports application rules",
-      "titleKo": "Public Preview: Azure Firewall IPv6 now supports application rules",
-      "summaryKo": "Azure Firewall now supports application rules in IPv6 Public Preview, enabling layer 7 filtering for IPv6 HTTP and HTTPS traffic. The enhancement extends application-level controls to IPv6 and dual-stack deployments, helping customers maintain consistent",
-      "status": "In preview",
-      "category": "Networking",
-      "link": "https://azure.microsoft.com/updates?id=579507",
-      "date": "2026-11-04T18:09:43.000Z"
     }
   ]
 }
