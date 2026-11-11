@@ -1,0 +1,52 @@
+{
+  "generatedAt": "2026-11-11T01:00:35.160Z",
+  "source": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
+  "translated": false,
+  "items": [
+    {
+      "title": "Public Preview: Distributed accelerator for cloud storage on AKS",
+      "titleKo": "Public Preview: Distributed accelerator for cloud storage on AKS",
+      "summaryKo": "Distributed accelerator for cloud storage (DACS) is now in public preview for AI workloads running on Azure Kubernetes Service (AKS). DACS is a distributed read-through cache that runs within your AKS cluster and uses local NVMe disks across nodes to keep",
+      "status": "In preview",
+      "category": "Containers",
+      "link": "https://azure.microsoft.com/updates?id=578454",
+      "date": "2026-11-10T20:08:32.000Z"
+    },
+    {
+      "title": "Generally Available: Azure Functions support for .NET 11",
+      "titleKo": "Generally Available: Azure Functions support for .NET 11",
+      "summaryKo": "Azure Functions support for .NET 11 is now generally available.You can now build Azure Functions apps targeting .NET 11 using the isolated worker model, while continuing to use the Azure Functions programming model and host integration. Your serverless ap",
+      "status": "Launched",
+      "category": "Compute",
+      "link": "https://azure.microsoft.com/updates?id=578773",
+      "date": "2026-11-10T20:07:45.000Z"
+    },
+    {
+      "title": "Public Preview: Azure Front Door adds native gRPC support",
+      "titleKo": "Public Preview: Azure Front Door adds native gRPC support",
+      "summaryKo": "Announcing the public preview of gRPC support in Azure Front Door. Build and deliver gRPC applications through Azure Front Door Standard and Premium. Now in preview, gRPC support lets you route calls to specific services and methods, distribute traffic ac",
+      "status": "In preview",
+      "category": "Networking",
+      "link": "https://azure.microsoft.com/updates?id=579383",
+      "date": "2026-11-10T18:55:53.000Z"
+    },
+    {
+      "title": "Generally Available: Azure Front Door edge actions",
+      "titleKo": "Generally Available: Azure Front Door edge actions",
+      "summaryKo": "Announcing the general availability of Azure Front Door edge actions (serverless compute at the edge). With edge actions, customers can execute lightweight JavaScript functions during Azure Front Door client request/response processing to make real-time d",
+      "status": "Launched",
+      "category": "Networking",
+      "link": "https://azure.microsoft.com/updates?id=579310",
+      "date": "2026-11-10T18:55:09.000Z"
+    },
+    {
+      "title": "Public Preview: Azure Route Server dual-stack IPv4/IPv6 support",
+      "titleKo": "Public Preview: Azure Route Server dual-stack IPv4/IPv6 support",
+      "summaryKo": "Azure Route Server now supports IPv4/IPv6 dual-stack mode in public preview, enabling route exchange for both address families across supported hybrid networking connections. Existing IPv4 connections remain unchanged, so organizations can adopt IPv6 rout",
+      "status": "",
+      "category": "Networking",
+      "link": "https://azure.microsoft.com/updates?id=579746",
+      "date": "2026-11-10T18:21:41.000Z"
+    }
+  ]
+}
