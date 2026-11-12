@@ -1,17 +1,8 @@
 {
-  "generatedAt": "2026-09-09T22:56:23.744Z",
+  "generatedAt": "2026-09-09T21:04:04.596Z",
   "source": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
   "translated": false,
   "items": [
-    {
-      "title": "Generally Available: Azure Ephemeral OS Disk with full caching for VM/VMSS",
-      "titleKo": "Generally Available: Azure Ephemeral OS Disk with full caching for VM/VMSS",
-      "summaryKo": "Azure Ephemeral OS Disk with full caching is now generally available for new virtual machines and Virtual Machine Scale Sets. The capability caches the complete OS image on a VM’s local storage, eliminating remote-storage reads after caching finishes. Thi",
-      "status": "Launched",
-      "category": "Compute",
-      "link": "https://azure.microsoft.com/updates?id=570551",
-      "date": "2026-09-09T21:24:37.000Z"
-    },
     {
       "title": "Generally Available: Playwright Workspaces in Australia East, Japan East, and Switzerland North",
       "titleKo": "Generally Available: Playwright Workspaces in Australia East, Japan East, and Switzerland North",
@@ -47,6 +38,15 @@
       "category": "Networking",
       "link": "https://azure.microsoft.com/updates?id=569804",
       "date": "2026-09-02T17:00:51.000Z"
+    },
+    {
+      "title": "Private Preview: Reader Endpoint for Azure Database for MySQL",
+      "titleKo": "Private Preview: Reader Endpoint for Azure Database for MySQL",
+      "summaryKo": "We’re happy to announce the public preview of reader endpoint support to simplify connection management when using multiple replicas in Azure Database for MySQL - Flexible Server. A reader endpoint enables automatic load balancing of read-only connection",
+      "status": "In development",
+      "category": "Databases",
+      "link": "https://azure.microsoft.com/updates?id=569653",
+      "date": "2026-09-02T16:59:15.000Z"
     }
   ]
 }

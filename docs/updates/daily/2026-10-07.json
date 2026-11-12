@@ -1,12 +1,31 @@
 {
-  "generatedAt": "2026-10-07T00:22:25.339Z",
+  "generatedAt": "2026-10-07T21:02:52.720Z",
   "source": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
-  "translated": false,
+  "translated": true,
+  "translatedBy": "mymemory",
   "items": [
     {
+      "title": "Generally Available: Anyscale on Azure",
+      "titleKo": "일반적으로 사용 가능: Azure에서 Anyscale",
+      "summaryKo": "Azure의 Anyscale을 이제 일반적으로 사용할 수 있습니다. Anyscale on Azure는 Ray에서 분산 Python 워크로드를 실행하기 위한 관리형 플랫폼입니다. Azure Kubernetes Service (AKS) 클러스터에 직접 배포하고 팀에서 제공하는 Azure 서비스와 통합됩니다.",
+      "status": "Launched",
+      "category": "Compute",
+      "link": "https://azure.microsoft.com/updates?id=573744",
+      "date": "2026-10-07T17:06:00.000Z"
+    },
+    {
+      "title": "Generally Available: Enabling the Bulk admin role for SQL Server on Linux",
+      "titleKo": "일반적으로 사용 가능: Linux에서 SQL Server에 대한 대량 관리자 역할 활성화",
+      "summaryKo": "SQL Server 2025 CU9 및 SQL Server 2022 CU27부터 Linux의 SQL Server는 사용자가 구성원이 될 필요 없이 대량 데이터 가져오기 작업을 수행하기 위한 대량 관리 고정 서버 역할 및 관리 대량 작업 권한을 지원합니다.",
+      "status": "Launched",
+      "category": "Feature",
+      "link": "https://azure.microsoft.com/updates?id=573443",
+      "date": "2026-10-07T16:57:04.000Z"
+    },
+    {
       "title": "Retirement: Pod name dimension in AKS pod platform metrics",
-      "titleKo": "Retirement: Pod name dimension in AKS pod platform metrics",
-      "summaryKo": "Beginning September 30, 2027, support for the pod name dimension on the following Azure Monitor platform metrics is retiring, and these metrics are transitioning to aggregate pod counters:Number of pods by phase (kube_pod_status_phase)Number of pods in Re",
+      "titleKo": "폐기: AKS POD 플랫폼 메트릭의 POD 이름 치수",
+      "summaryKo": "2027년 9월 30일부터 다음 Azure Monitor 플랫폼 메트릭의 POD 이름 차원에 대한 지원이 중단되고 이러한 메트릭이 집계 POD 카운터로 전환됩니다. 단계별 POD 수 (kube_pod_status_phase) Re의 POD 수",
       "status": "Retirements",
       "category": "Compute",
       "link": "https://azure.microsoft.com/updates?id=570232",
@@ -14,8 +33,8 @@
     },
     {
       "title": "Retirement: Azure App Service on Azure Stack Hub",
-      "titleKo": "Retirement: Azure App Service on Azure Stack Hub",
-      "summaryKo": "Azure App Service on Azure Stack Hub will be retired on September 30, 2029. Starting September 30, 2026, new installations will no longer be supported, and no new product releases, features, or enhancements will be made available. Existing supported deplo",
+      "titleKo": "은퇴: Azure Stack Hub의 Azure 앱 서비스",
+      "summaryKo": "Azure Stack Hub의 Azure App Service는 2029년 9월 30일에 중단됩니다. 2026년 9월 30일부터 새로운 설치는 더 이상 지원되지 않으며 새로운 제품 릴리스, 기능 또는 향상된 기능을 사용할 수 없습니다. 기존에 지원되는 deplo",
       "status": "Retirements",
       "category": "Compute",
       "link": "https://azure.microsoft.com/updates?id=568178",
@@ -23,30 +42,12 @@
     },
     {
       "title": "Retirement: Support for Java 8, 11 and 17 will end on September 1, 2027",
-      "titleKo": "Retirement: Support for Java 8, 11 and 17 will end on September 1, 2027",
-      "summaryKo": "On September 1, 2027 support for Java 8, 11 and 17 will end. Your apps that are hosted on App Service will continue to run, but security updates will no longer be available, and we’ll no longer provide customer service for Java 8, 11 and 17.Required actio",
+      "titleKo": "퇴직: Java 8, 11 및 17에 대한 지원은 2027년 9월 1일에 종료됩니다.",
+      "summaryKo": "2027년 9월 1일에 Java 8, 11 및 17에 대한 지원이 종료됩니다. App Service에서 호스팅되는 앱은 계속 실행되지만 보안 업데이트는 더 이상 사용할 수 없으며 Java 8, 11 및 17에 대한 고객 서비스는 더 이상 제공되지 않습니다. 필수 actio",
       "status": "Retirements",
       "category": "Compute",
       "link": "https://azure.microsoft.com/updates?id=568585",
       "date": "2026-10-06T18:21:59.000Z"
-    },
-    {
-      "title": "Retirement: Always Encrypted with Intel SGX Enclaves",
-      "titleKo": "Retirement: Always Encrypted with Intel SGX Enclaves",
-      "summaryKo": "Always Encrypted with Intel SGX enclaves in Azure SQL Database will retire on October 31, 2027 as support for SGX-enabled DC-series hardware is phased out. Customers should transition to Virtualization-Based Security (VBS) enclaves, a hardware-independent",
-      "status": "Retirements",
-      "category": "Databases",
-      "link": "https://azure.microsoft.com/updates?id=569236",
-      "date": "2026-10-06T16:42:33.000Z"
-    },
-    {
-      "title": "Public Preview: AKS on bare metal now on Ubuntu",
-      "titleKo": "Public Preview: AKS on bare metal now on Ubuntu",
-      "summaryKo": "Running Kubernetes on-premises often means adding a virtualization layer, adapting to unfamiliar infrastructure, or giving up control over the hardware and software your applications depend on. For AI workloads, these tradeoffs can limit access to local d",
-      "status": "In preview",
-      "category": "Feature",
-      "link": "https://azure.microsoft.com/updates?id=573782",
-      "date": "2026-10-06T15:44:06.000Z"
     }
   ]
 }

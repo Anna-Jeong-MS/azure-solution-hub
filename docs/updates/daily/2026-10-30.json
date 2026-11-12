@@ -1,12 +1,22 @@
 {
-  "generatedAt": "2026-10-30T00:37:13.471Z",
+  "generatedAt": "2026-10-30T21:01:20.443Z",
   "source": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
-  "translated": false,
+  "translated": true,
+  "translatedBy": "mymemory",
   "items": [
     {
+      "title": "Public Preview: Support database-level managed identity (including FIC) in Create Database Scoped Credential T-SQL",
+      "titleKo": "공개 미리 보기: 데이터베이스 범위 지정 자격 증명 T-SQL 만들기에서 데이터베이스 수준 관리 ID (FIC 포함) 지원",
+      "summaryKo": "Azure SQL Database의 데이터베이스 수준 관리 ID를 사용하면 각 데이터베이스에 대해 사용자가 할당한 관리 ID를 사용하여 외부 테이블 및 OPENROWSET을 통해 Azure Blob Storage 및 Azure Data Lake Storage Gen2의 파일을 쿼리할 수 있습니다. 인증할 수 있습니다",
+      "status": "In preview",
+      "category": "Databases",
+      "link": "https://azure.microsoft.com/updates?id=577491",
+      "date": "2026-10-30T17:16:27.000Z"
+    },
+    {
       "title": "Generally Available: Large OS Disk Encryption for Azure Confidential VM migrations",
-      "titleKo": "Generally Available: Large OS Disk Encryption for Azure Confidential VM migrations",
-      "summaryKo": "Large OS Disk Encryption (LOSDE) is now generally available for Azure Confidential VM migration scenarios. Organizations can move larger, production-scale workloads into confidential computing with the OS disk fully protected, instead of being held back b",
+      "titleKo": "일반적으로 사용 가능: Azure 기밀 VM 마이그레이션을 위한 대형 OS 디스크 암호화",
+      "summaryKo": "이제 Azure Confidential VM 마이그레이션 시나리오에서 LOSDE (Large OS Disk Encryption) 를 일반적으로 사용할 수 있습니다. 조직은 OS 디스크를 완전히 보호하여 운영 규모가 큰 워크로드를 기밀 컴퓨팅으로 이동할 수 있습니다.",
       "status": "Launched",
       "category": "Feature",
       "link": "https://azure.microsoft.com/updates?id=578850",
@@ -14,8 +24,8 @@
     },
     {
       "title": "Generally Available: HTTP DDoS ruleset for Azure Front Door Premium WAF",
-      "titleKo": "Generally Available: HTTP DDoS ruleset for Azure Front Door Premium WAF",
-      "summaryKo": "Announcing the general availability of the HTTP DDoS ruleset for Azure Web Application Firewall (WAF) on Azure Front Door Premium. HTTP-layer DDoS attacks remain a leading cause of application downtime, and static controls such as IP filters and fixed rat",
+      "titleKo": "일반적으로 사용 가능: Azure Front Door Premium WAF용 HTTP DDoS 규칙 집합",
+      "summaryKo": "Azure Front Door Premium에서 WAF (Azure Web Application Firewall) 용 HTTP DDoS 규칙 집합의 일반 가용성을 발표합니다. HTTP 계층 DDoS 공격은 애플리케이션 다운타임의 주요 원인으로 남아 있으며 IP 필터 및 고정 RAT와 같은 정적 제어",
       "status": "Launched",
       "category": "Networking",
       "link": "https://azure.microsoft.com/updates?id=578681",
@@ -23,8 +33,8 @@
     },
     {
       "title": "Generally Available: Azure MCP Server 3.0",
-      "titleKo": "Generally Available: Azure MCP Server 3.0",
-      "summaryKo": "Azure MCP Server 3.0 is now generally available, expanding how AI agents and developer tools interact with Azure through the open Model Context Protocol (MCP).This release introduces new and expanded capabilities:Infrastructure as code: Azure Terraform to",
+      "titleKo": "일반적으로 사용 가능: Azure MCP Server 3.0",
+      "summaryKo": "이제 개방형 MCP (Model Context Protocol) 를 통해 AI 에이전트 및 개발자 도구가 Azure와 상호 작용하는 방식을 확장하여 Azure MCP Server 3.0을 일반적으로 사용할 수 있습니다. 이 릴리스에서는 새롭고 확장된 기능인 Infrastructure as code: Azure Terraform을",
       "status": "Launched",
       "category": "Developer tools",
       "link": "https://azure.microsoft.com/updates?id=578662",
@@ -32,21 +42,12 @@
     },
     {
       "title": "Announcing: Migrate Azure Container Apps logging destination from Log Analytics to Azure Monitor",
-      "titleKo": "Announcing: Migrate Azure Container Apps logging destination from Log Analytics to Azure Monitor",
-      "summaryKo": "The Log Analytics logging destination for Azure Container Apps is now a legacy logging option. Existing environments configured with the Log Analytics logging destination will continue to function normally. However, we recommend planning a migration to th",
+      "titleKo": "발표: Azure Container Apps 로깅 대상을 Log Analytics에서 Azure Monitor로 마이그레이션",
+      "summaryKo": "Azure Container Apps의 Log Analytics 로깅 대상이 이제 레거시 로깅 옵션이 되었습니다. 로그 분석 로깅 대상으로 구성된 기존 환경은 계속 정상적으로 작동합니다. 그러나 다음으로의 마이그레이션을 계획하는 것이 좋습니다.",
       "status": "",
       "category": "Containers",
       "link": "https://azure.microsoft.com/updates?id=577689",
       "date": "2026-10-28T17:52:51.000Z"
-    },
-    {
-      "title": "Public Preview: Cross Tenant Restore with Azure Backup",
-      "titleKo": "Public Preview: Cross Tenant Restore with Azure Backup",
-      "summaryKo": "Cross-Tenant Restore (CTR) helps organizations establish an independent recovery path by enabling Azure VM backups to be restored into a separate Azure tenant. It strengthens cyber resilience while using the existing backup copy, without requiring custome",
-      "status": "In preview",
-      "category": "Management and governance",
-      "link": "https://azure.microsoft.com/updates?id=577117",
-      "date": "2026-10-28T17:09:30.000Z"
     }
   ]
 }

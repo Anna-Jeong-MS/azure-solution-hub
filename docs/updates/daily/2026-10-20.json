@@ -1,12 +1,13 @@
 {
-  "generatedAt": "2026-10-20T23:37:39.635Z",
+  "generatedAt": "2026-10-20T21:02:39.353Z",
   "source": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
-  "translated": false,
+  "translated": true,
+  "translatedBy": "mymemory",
   "items": [
     {
       "title": "Public Preview: Disable VNet peering route",
-      "titleKo": "Public Preview: Disable VNet peering route",
-      "summaryKo": "Announcing the public preview of disable VNet peering route, a route-table capability that gives you more control over traffic between peered virtual networks. DPR suppresses system-generated peering routes on subnets associated with the route table while",
+      "titleKo": "공개 미리보기: VNet 피어링 경로 비활성화",
+      "summaryKo": "피어링된 가상 네트워크 간의 트래픽을 더 잘 제어할 수 있는 라우팅 테이블 기능인 VNet 피어링 경로 비활성화 공개 미리보기를 발표합니다. DPR은 라우트 테이블과 연결된 서브넷에서 시스템 생성 피어링 경로를 억제합니다.",
       "status": "In preview",
       "category": "Networking",
       "link": "https://azure.microsoft.com/updates?id=576242",
@@ -14,8 +15,8 @@
     },
     {
       "title": "Generally Available: Service tag match condition for Azure Front Door Premium WAF",
-      "titleKo": "Generally Available: Service tag match condition for Azure Front Door Premium WAF",
-      "summaryKo": "Announcing the general availability of the service tag match condition for Azure Web Application Firewall (WAF) custom rules on Azure Front Door Premium. Service tags represent groups of IP address prefixes used by Azure services, and Microsoft updates th",
+      "titleKo": "일반적으로 사용 가능: Azure Front Door Premium WAF에 대한 서비스 태그 일치 조건",
+      "summaryKo": "Azure Front Door Premium에서 Azure Web Application Firewall (WAF) 사용자 정의 규칙에 대한 서비스 태그 일치 조건의 일반 가용성을 발표합니다. 서비스 태그는 Azure 서비스에서 사용하는 IP 주소 접두사 그룹을 나타내며 Microsoft는",
       "status": "Launched",
       "category": "Networking",
       "link": "https://azure.microsoft.com/updates?id=577156",
@@ -23,8 +24,8 @@
     },
     {
       "title": "Generally Available: Keyless TLS on Application Gateway with Azure Key Vault Managed HSM",
-      "titleKo": "Generally Available: Keyless TLS on Application Gateway with Azure Key Vault Managed HSM",
-      "summaryKo": "Azure Application Gateway now supports keyless TLS termination using certificates whose private keys stay in Azure Key Vault Managed HSM. Each TLS handshake signature is performed inside the HSM, and the private key is never exported to the gateway. This",
+      "titleKo": "일반적으로 사용 가능: Azure Key Vault Managed HSM을 사용하는 애플리케이션 게이트웨이의 Keyless TLS",
+      "summaryKo": "Azure Application Gateway는 이제 개인 키가 Azure Key Vault Managed HSM에 남아 있는 인증서를 사용하여 키리스 TLS 종료를 지원합니다. 각 TLS 핸드셰이크 서명은 HSM 내부에서 수행되며 개인 키는 게이트웨이로 내보내지 않습니다. 이것은",
       "status": "Launched",
       "category": "Networking",
       "link": "https://azure.microsoft.com/updates?id=577130",
@@ -32,8 +33,8 @@
     },
     {
       "title": "Generally Available: Advanced platform metrics for Azure Monitor",
-      "titleKo": "Generally Available: Advanced platform metrics for Azure Monitor",
-      "summaryKo": "Advanced platform metrics for Azure Monitor are now generally available. Advanced platform metrics provide finer-grained signals that help customers more quickly and accurately identify changes and trends within their resources.With this release, customer",
+      "titleKo": "일반적으로 사용 가능: Azure Monitor에 대한 고급 플랫폼 메트릭",
+      "summaryKo": "Azure Monitor에 대한 고급 플랫폼 메트릭을 이제 일반적으로 사용할 수 있습니다. 고급 플랫폼 지표는 고객이 리소스 내의 변화와 추세를 보다 빠르고 정확하게 식별하는 데 도움이 되는 세분화된 신호를 제공합니다. 이번 릴리스를 통해 고객은",
       "status": "Launched",
       "category": "DevOps",
       "link": "https://azure.microsoft.com/updates?id=575329",
@@ -41,8 +42,8 @@
     },
     {
       "title": "Generally Available: Metrics usage insights for Azure Monitor workspace",
-      "titleKo": "Generally Available: Metrics usage insights for Azure Monitor workspace",
-      "summaryKo": "Metrics usage insights is now generally available, giving you greater visibility into what’s driving metrics usage across your Azure Monitor workspace. Monitor workspace utilization, identify unused metrics, understand usage trends, and investigate change",
+      "titleKo": "일반적으로 사용 가능: Azure Monitor 작업 영역에 대한 메트릭 사용량 인사이트",
+      "summaryKo": "이제 메트릭 사용량 통찰력을 일반적으로 사용할 수 있으므로 Azure Monitor 작업 영역 전체에서 메트릭 사용량을 유도하는 요소에 대한 가시성을 높일 수 있습니다. 작업 공간 활용도 모니터링, 사용되지 않는 지표 식별, 사용 추세 파악, 변경 사항 조사",
       "status": "Launched",
       "category": "DevOps",
       "link": "https://azure.microsoft.com/updates?id=577165",
