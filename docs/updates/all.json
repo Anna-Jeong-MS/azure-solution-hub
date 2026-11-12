@@ -1,8 +1,17 @@
 {
-  "generatedAt": "2026-11-11T01:00:35.168Z",
+  "generatedAt": "2026-11-12T02:07:23.818Z",
   "source": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
-  "count": 152,
+  "count": 153,
   "items": [
+    {
+      "title": "Public Preview: Rate limit grouping for Azure Front Door Premium WAF",
+      "titleKo": "Public Preview: Rate limit grouping for Azure Front Door Premium WAF",
+      "summaryKo": "Announcing the public preview of rate limit grouping for Azure Web Application Firewall (WAF) on Azure Front Door Premium. By default, a rate limit rule counts requests separately for each client IP address. Distributed attacks get around this by spreadin",
+      "status": "In preview",
+      "category": "Networking",
+      "link": "https://azure.microsoft.com/updates?id=580155",
+      "date": "2026-11-11T18:18:27.000Z"
+    },
     {
       "title": "Public Preview: Distributed accelerator for cloud storage on AKS",
       "titleKo": "Public Preview: Distributed accelerator for cloud storage on AKS",
