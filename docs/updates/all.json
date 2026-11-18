@@ -1,8 +1,53 @@
 {
-  "generatedAt": "2026-11-17T03:24:53.982Z",
+  "generatedAt": "2026-11-18T02:44:15.552Z",
   "source": "https://www.microsoft.com/releasecommunications/api/v2/azure/rss",
-  "count": 161,
+  "count": 166,
   "items": [
+    {
+      "title": "Public Preview: Immutable snapshots for Azure Disk Storage",
+      "titleKo": "퍼블릭 프리뷰: Azure 디스크 스토리지용 불변 스냅샷",
+      "summaryKo": "Azure 디스크 스토리지용 불변 스냅샷이 이제 공개 미리 보기로 제공됩니다. 불변 스냅샷은 Azure Backup 불변 Vault를 보완합니다. 저장소를 사용하여 비용 효율적인 장기 보존을 수행하고, 불변 스냅샷을 사용하여 빠른 처리가 필요한 단기 백업을 수행하세요.",
+      "status": "In preview",
+      "category": "Storage",
+      "link": "https://azure.microsoft.com/updates?id=581503",
+      "date": "2026-11-18T00:00:09.000Z"
+    },
+    {
+      "title": "Announcing: Azure Boost observability for NVMe disks",
+      "titleKo": "발표: NVMe 디스크용 Azure Boost 관측 가능성",
+      "summaryKo": "NVMe 디스크용 Azure Boost 관측 가능성은 호환되는 Azure VM 내에서 실행하는 오픈 소스 명령줄 도구입니다. Azure Boost의 지원을 받는 이 도구는 원격 디스크 I/O 및 지연 시간 지표를 제공하고 VM 내의 각 디스크를 해당 디스크에 매핑합니다.",
+      "status": "",
+      "category": "Storage",
+      "link": "https://azure.microsoft.com/updates?id=581227",
+      "date": "2026-11-18T00:00:09.000Z"
+    },
+    {
+      "title": "Generally Available: Cobalt 200 Arm-based Dplsv7, Dpsv7, Epsv7, Mpsv4, and Lpsv5-series Virtual Machines",
+      "titleKo": "일반 제공: Cobalt 200 Arm 기반 Dplsv7, Dpsv7, Epsv7, Mpsv4 및 Lpsv5 시리즈 가상 머신",
+      "summaryKo": "범용 Dpsv7 및 Dplsv7, 메모리 최적화 Epsv7, 대용량 메모리 Mpsv4, 고집적 스토리지 Lpsv5 VM이 이제 정식으로 제공됩니다. 이러한 가상 머신은 이전 세대의 Cobalt 100 VM에 비해 대폭 향상된 기능을 제공하며, 다음과 같은 개선 사항을 제공합니다.",
+      "status": "",
+      "category": "Compute",
+      "link": "https://azure.microsoft.com/updates?id=581298",
+      "date": "2026-11-17T23:55:53.000Z"
+    },
+    {
+      "title": "Generally Available: Intel and AMD v6 with temp disk for Azure Database for PostgreSQL",
+      "titleKo": "일반 제공: PostgreSQL용 Azure Database를 위한 임시 디스크가 있는 Intel 및 AMD v6",
+      "summaryKo": "Azure Database for PostgreSQL Flexible Server에서 로컬 임시 디스크를 갖춘 Intel 및 AMD v6 컴퓨팅 티어의 정식 출시를 발표합니다. 새로운 v6 세대는 Flexible Server 컴퓨팅 포트폴리오를 더 높은 성능, 더 큰 규모,",
+      "status": "Launched",
+      "category": "Databases",
+      "link": "https://azure.microsoft.com/updates?id=579590",
+      "date": "2026-11-17T23:52:49.000Z"
+    },
+    {
+      "title": "Generally Available: Intel and AMD v5 diskless tier for Azure Database for PostgreSQL",
+      "titleKo": "일반 제공: PostgreSQL용 Azure Database를 위한 Intel 및 AMD v5 디스크리스 티어",
+      "summaryKo": "Azure Database for PostgreSQL Flexible Server에서 Intel 및 AMD V5 디스크리스 컴퓨팅의 일반 가용성을 발표합니다. 이러한 새로운 옵션은 로컬 임시 스토리지(LTS)를 포함하지 않는 범용 및 메모리 최적화 SKU로 v5 컴퓨팅 포트폴리오를 확장합니다.",
+      "status": "Launched",
+      "category": "Databases",
+      "link": "https://azure.microsoft.com/updates?id=579595",
+      "date": "2026-11-17T23:51:44.000Z"
+    },
     {
       "title": "Retirement: Azure Data Share will be retired on November 12, 2029",
       "titleKo": "서비스 종료: Azure Data Share는 2029년 11월 12일에 서비스가 종료됩니다.",
